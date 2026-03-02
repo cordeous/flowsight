@@ -66,6 +66,28 @@ def export_csvs() -> None:
     print(f"[csv_export] Exported {len(views)} views -> powerbi/data_export/")
 
 
+def export_react_csvs() -> None:
+    """Copy CSVs + ForecastEvaluation into dashboard/public/data/ for the React build."""
+    import shutil
+    import sqlite3
+    import pandas as pd
+    from config.settings import DB_PATH
+
+    src_dir  = _ROOT / "powerbi" / "data_export"
+    dest_dir = _ROOT / "dashboard" / "public" / "data"
+    dest_dir.mkdir(parents=True, exist_ok=True)
+
+    for csv_file in src_dir.glob("*.csv"):
+        shutil.copy2(csv_file, dest_dir / csv_file.name)
+
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query("SELECT * FROM ForecastEvaluation", conn)
+    conn.close()
+    df.to_csv(dest_dir / "vw_forecast_evaluation.csv", index=False)
+
+    print(f"[react_export] Copied 9 CSVs -> dashboard/public/data/")
+
+
 def run_phase3() -> float:
     _banner("PHASE 3 -- Optimization + Anomaly Detection + Alerts")
     t = time.time()
@@ -110,6 +132,7 @@ def main() -> None:
 
     # Always export CSVs so Power BI files stay current
     export_csvs()
+    export_react_csvs()
 
     # Regenerate interactive HTML dashboard
     t_dash = time.time()
@@ -134,6 +157,7 @@ def main() -> None:
     print("  Database:    db/flowsight.db")
     print("  CSV export:  powerbi/data_export/  (8 files, ready to import)")
     print("  Dashboard:   powerbi/FlowSight_Dashboard.html")
+    print("  React app:   cd dashboard && npm run build -> dist/index.html")
     print("  Power BI:    see powerbi/odbc_setup_guide.md")
     print("=" * 60)
 

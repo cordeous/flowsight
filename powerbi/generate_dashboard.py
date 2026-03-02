@@ -448,6 +448,17 @@ def build_dashboard(output_path: Path = None, db_path=DB_PATH, open_browser: boo
 
     print("[dashboard] Assembling HTML...")
 
+    # ── Live banner stats ──────────────────────────────────────
+    reorder = d["reorder"]
+    anomaly = d["anomaly"]
+    stockout = d["stockout"]
+    order_now_count  = int((reorder["AlertStatus"] == "ORDER NOW").sum())
+    below_rop_count  = int(stockout["BelowReorderPoint"].sum()) if "BelowReorderPoint" in stockout.columns else 0
+    total_products   = int(len(stockout))
+    anomaly_count    = int(len(anomaly))
+    import datetime as _dt
+    generated_at = _dt.datetime.now().strftime("%b %d, %Y %H:%M")
+
     # Fetch Plotly CDN script tag
     plotly_cdn = '<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>'
 
@@ -577,13 +588,13 @@ def build_dashboard(output_path: Path = None, db_path=DB_PATH, open_browser: boo
 <header>
   <div class="logo">FlowSight <span>Supply Chain Intelligence Platform</span></div>
   <nav id="nav"></nav>
-  <div class="refresh-time" id="refresh-time"></div>
+  <div class="refresh-time">Data as of {generated_at}</div>
 </header>
 <main>
   <div class="alert-banner">
-    <b>38 CRITICAL</b> reorder alerts active &nbsp;|&nbsp;
-    40/50 products below recommended reorder point &nbsp;|&nbsp;
-    118 anomalies detected
+    <b>{order_now_count} ORDER NOW</b> reorder alerts active &nbsp;|&nbsp;
+    {below_rop_count}/{total_products} products below recommended reorder point &nbsp;|&nbsp;
+    {anomaly_count} anomalies detected
   </div>
   {p1}{p2}{p3}{p4}
 </main>
@@ -605,12 +616,6 @@ def build_dashboard(output_path: Path = None, db_path=DB_PATH, open_browser: boo
   }});
 
   pages[0].classList.add('active');
-
-  // Refresh timestamp
-  document.getElementById('refresh-time').textContent =
-    'Data as of ' + new Date().toLocaleDateString('en-US', {{
-      year:'numeric', month:'short', day:'numeric'
-    }});
 </script>
 </body>
 </html>"""

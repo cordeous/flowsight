@@ -1,0 +1,1201 @@
+ProductID,ProductName,Category,YearMonth,COGS,CurrentInventoryValue,InventoryTurnoverRatio
+1,Microcontroller Unit v01,Electronics,2022-01,42787.67999999999,50467.52,0.85
+1,Microcontroller Unit v01,Electronics,2022-02,39770.6,50467.52,0.79
+1,Microcontroller Unit v01,Electronics,2022-03,46079.03999999999,50467.52,0.91
+1,Microcontroller Unit v01,Electronics,2022-04,54033.159999999996,50467.52,1.07
+1,Microcontroller Unit v01,Electronics,2022-05,103403.55999999998,50467.52,2.05
+1,Microcontroller Unit v01,Electronics,2022-06,92980.91999999997,50467.52,1.84
+1,Microcontroller Unit v01,Electronics,2022-07,88043.87999999998,50467.52,1.74
+1,Microcontroller Unit v01,Electronics,2022-08,78992.63999999998,50467.52,1.57
+1,Microcontroller Unit v01,Electronics,2022-09,62261.56,50467.52,1.23
+1,Microcontroller Unit v01,Electronics,2022-10,58695.92,50467.52,1.16
+1,Microcontroller Unit v01,Electronics,2022-11,53758.880000000005,50467.52,1.07
+1,Microcontroller Unit v01,Electronics,2022-12,61164.439999999995,50467.52,1.21
+1,Microcontroller Unit v01,Electronics,2023-01,56227.4,50467.52,1.11
+1,Microcontroller Unit v01,Electronics,2023-02,44159.07999999999,50467.52,0.88
+1,Microcontroller Unit v01,Electronics,2023-03,60615.88,50467.52,1.2
+1,Microcontroller Unit v01,Electronics,2023-04,101209.32000000002,50467.52,2.01
+1,Microcontroller Unit v01,Electronics,2023-05,96272.28000000003,50467.52,1.91
+1,Microcontroller Unit v01,Electronics,2023-06,86398.2,50467.52,1.71
+1,Microcontroller Unit v01,Electronics,2023-07,75426.99999999997,50467.52,1.49
+1,Microcontroller Unit v01,Electronics,2023-08,96272.28000000001,50467.52,1.91
+1,Microcontroller Unit v01,Electronics,2023-09,74055.59999999998,50467.52,1.47
+1,Microcontroller Unit v01,Electronics,2023-10,61987.28,50467.52,1.23
+1,Microcontroller Unit v01,Electronics,2023-11,69118.56,50467.52,1.37
+1,Microcontroller Unit v01,Electronics,2023-12,65552.91999999998,50467.52,1.3
+2,RFID Scanner v02,Electronics,2022-01,75580.47999999998,54696.4,1.38
+2,RFID Scanner v02,Electronics,2022-02,43757.119999999995,54696.4,0.8
+2,RFID Scanner v02,Electronics,2022-03,80801.5,54696.4,1.48
+2,RFID Scanner v02,Electronics,2022-04,88011.48000000001,54696.4,1.61
+2,RFID Scanner v02,Electronics,2022-05,92983.87999999996,54696.4,1.7
+2,RFID Scanner v02,Electronics,2022-06,101436.96,54696.4,1.85
+2,RFID Scanner v02,Electronics,2022-07,74834.62,54696.4,1.37
+2,RFID Scanner v02,Electronics,2022-08,88260.09999999999,54696.4,1.61
+2,RFID Scanner v02,Electronics,2022-09,73094.28,54696.4,1.34
+2,RFID Scanner v02,Electronics,2022-10,89254.58,54696.4,1.63
+2,RFID Scanner v02,Electronics,2022-11,87017.0,54696.4,1.59
+2,RFID Scanner v02,Electronics,2022-12,69364.98,54696.4,1.27
+2,RFID Scanner v02,Electronics,2023-01,63646.72,54696.4,1.16
+2,RFID Scanner v02,Electronics,2023-02,51215.719999999994,54696.4,0.94
+2,RFID Scanner v02,Electronics,2023-03,77569.44,54696.4,1.42
+2,RFID Scanner v02,Electronics,2023-04,79807.02,54696.4,1.46
+2,RFID Scanner v02,Electronics,2023-05,116354.15999999999,54696.4,2.13
+2,RFID Scanner v02,Electronics,2023-06,76326.34,54696.4,1.4
+2,RFID Scanner v02,Electronics,2023-07,86022.52,54696.4,1.57
+2,RFID Scanner v02,Electronics,2023-08,93729.74,54696.4,1.71
+2,RFID Scanner v02,Electronics,2023-09,112873.48,54696.4,2.06
+2,RFID Scanner v02,Electronics,2023-10,107652.46,54696.4,1.97
+2,RFID Scanner v02,Electronics,2023-11,91492.15999999999,54696.4,1.67
+2,RFID Scanner v02,Electronics,2023-12,90994.92000000001,54696.4,1.66
+3,Barcode Reader v03,Electronics,2022-01,58585.66,34557.44,1.7
+3,Barcode Reader v03,Electronics,2022-02,57235.76,34557.44,1.66
+3,Barcode Reader v03,Electronics,2022-03,90443.29999999999,34557.44,2.62
+3,Barcode Reader v03,Electronics,2022-04,120411.08,34557.44,3.48
+3,Barcode Reader v03,Electronics,2022-05,141739.5,34557.44,4.1
+3,Barcode Reader v03,Electronics,2022-06,94762.98000000001,34557.44,2.74
+3,Barcode Reader v03,Electronics,2022-07,115011.48,34557.44,3.33
+3,Barcode Reader v03,Electronics,2022-08,119331.16000000002,34557.44,3.45
+3,Barcode Reader v03,Electronics,2022-09,120951.03999999998,34557.44,3.5
+3,Barcode Reader v03,Electronics,2022-10,99622.61999999998,34557.44,2.88
+3,Barcode Reader v03,Electronics,2022-11,89633.36,34557.44,2.59
+3,Barcode Reader v03,Electronics,2022-12,100702.54000000001,34557.44,2.91
+3,Barcode Reader v03,Electronics,2023-01,77214.28,34557.44,2.23
+3,Barcode Reader v03,Electronics,2023-02,66685.06,34557.44,1.93
+3,Barcode Reader v03,Electronics,2023-03,96652.84000000004,34557.44,2.8
+3,Barcode Reader v03,Electronics,2023-04,99622.62,34557.44,2.88
+3,Barcode Reader v03,Electronics,2023-05,141199.54000000004,34557.44,4.09
+3,Barcode Reader v03,Electronics,2023-06,115551.44000000002,34557.44,3.34
+3,Barcode Reader v03,Electronics,2023-07,111501.74,34557.44,3.23
+3,Barcode Reader v03,Electronics,2023-08,109881.86000000002,34557.44,3.18
+3,Barcode Reader v03,Electronics,2023-09,99622.62000000002,34557.44,2.88
+3,Barcode Reader v03,Electronics,2023-10,118521.22,34557.44,3.43
+3,Barcode Reader v03,Electronics,2023-11,104212.28000000001,34557.44,3.02
+3,Barcode Reader v03,Electronics,2023-12,116901.34000000001,34557.44,3.38
+4,LED Display Module v04,Electronics,2022-01,19407.959999999995,21896.16,0.89
+4,LED Display Module v04,Electronics,2022-02,14265.680000000002,21896.16,0.65
+4,LED Display Module v04,Electronics,2022-03,12275.12,21896.16,0.56
+4,LED Display Module v04,Electronics,2022-04,25047.88,21896.16,1.14
+4,LED Display Module v04,Electronics,2022-05,16753.88,21896.16,0.77
+4,LED Display Module v04,Electronics,2022-06,18412.68,21896.16,0.84
+4,LED Display Module v04,Electronics,2022-07,28365.48,21896.16,1.3
+4,LED Display Module v04,Electronics,2022-08,17583.28,21896.16,0.8
+4,LED Display Module v04,Electronics,2022-09,24052.6,21896.16,1.1
+4,LED Display Module v04,Electronics,2022-10,19573.84,21896.16,0.89
+4,LED Display Module v04,Electronics,2022-11,19739.72,21896.16,0.9
+4,LED Display Module v04,Electronics,2022-12,18744.44,21896.16,0.86
+4,LED Display Module v04,Electronics,2023-01,12441.0,21896.16,0.57
+4,LED Display Module v04,Electronics,2023-02,12441.0,21896.16,0.57
+4,LED Display Module v04,Electronics,2023-03,18910.32,21896.16,0.86
+4,LED Display Module v04,Electronics,2023-04,21896.16,21896.16,1.0
+4,LED Display Module v04,Electronics,2023-05,23389.08,21896.16,1.07
+4,LED Display Module v04,Electronics,2023-06,14763.32,21896.16,0.67
+4,LED Display Module v04,Electronics,2023-07,24882.0,21896.16,1.14
+4,LED Display Module v04,Electronics,2023-08,19076.199999999997,21896.16,0.87
+4,LED Display Module v04,Electronics,2023-09,26374.920000000002,21896.16,1.2
+4,LED Display Module v04,Electronics,2023-10,19905.6,21896.16,0.91
+4,LED Display Module v04,Electronics,2023-11,20071.48,21896.16,0.92
+4,LED Display Module v04,Electronics,2023-12,20569.120000000003,21896.16,0.94
+5,Ethernet Switch v05,Electronics,2022-01,81664.26,52135.94,1.57
+5,Ethernet Switch v05,Electronics,2022-02,57903.19000000001,52135.94,1.11
+5,Ethernet Switch v05,Electronics,2022-03,94813.59000000001,52135.94,1.82
+5,Ethernet Switch v05,Electronics,2022-04,124572.60000000002,52135.94,2.39
+5,Ethernet Switch v05,Electronics,2022-05,110039.12999999998,52135.94,2.11
+5,Ethernet Switch v05,Electronics,2022-06,130109.15999999999,52135.94,2.5
+5,Ethernet Switch v05,Electronics,2022-07,95736.35000000002,52135.94,1.84
+5,Ethernet Switch v05,Electronics,2022-08,110269.81999999999,52135.94,2.12
+5,Ethernet Switch v05,Electronics,2022-09,115114.31000000001,52135.94,2.21
+5,Ethernet Switch v05,Electronics,2022-10,85585.99,52135.94,1.64
+5,Ethernet Switch v05,Electronics,2022-11,88354.27,52135.94,1.69
+5,Ethernet Switch v05,Electronics,2022-12,95044.28,52135.94,1.82
+5,Ethernet Switch v05,Electronics,2023-01,74743.56,52135.94,1.43
+5,Ethernet Switch v05,Electronics,2023-02,76589.07999999999,52135.94,1.47
+5,Ethernet Switch v05,Electronics,2023-03,99427.39,52135.94,1.91
+5,Ethernet Switch v05,Electronics,2023-04,116498.44999999998,52135.94,2.23
+5,Ethernet Switch v05,Electronics,2023-05,143027.8,52135.94,2.74
+5,Ethernet Switch v05,Electronics,2023-06,139106.06999999998,52135.94,2.67
+5,Ethernet Switch v05,Electronics,2023-07,109808.43999999999,52135.94,2.11
+5,Ethernet Switch v05,Electronics,2023-08,115345.00000000001,52135.94,2.21
+5,Ethernet Switch v05,Electronics,2023-09,114652.93,52135.94,2.2
+5,Ethernet Switch v05,Electronics,2023-10,122265.7,52135.94,2.35
+5,Ethernet Switch v05,Electronics,2023-11,84893.92000000001,52135.94,1.63
+5,Ethernet Switch v05,Electronics,2023-12,113268.79000000004,52135.94,2.17
+6,USB Hub Pro v06,Electronics,2022-01,41368.48,8109.68,5.1
+6,USB Hub Pro v06,Electronics,2022-02,29067.280000000002,8109.68,3.58
+6,USB Hub Pro v06,Electronics,2022-03,37997.04,8109.68,4.69
+6,USB Hub Pro v06,Electronics,2022-04,74080.56000000001,8109.68,9.13
+6,USB Hub Pro v06,Electronics,2022-05,73898.32,8109.68,9.11
+6,USB Hub Pro v06,Electronics,2022-06,71255.84,8109.68,8.79
+6,USB Hub Pro v06,Electronics,2022-07,67337.68000000001,8109.68,8.3
+6,USB Hub Pro v06,Electronics,2022-08,58954.64000000001,8109.68,7.27
+6,USB Hub Pro v06,Electronics,2022-09,46562.32000000002,8109.68,5.74
+6,USB Hub Pro v06,Electronics,2022-10,56129.92,8109.68,6.92
+6,USB Hub Pro v06,Electronics,2022-11,43282.0,8109.68,5.34
+6,USB Hub Pro v06,Electronics,2022-12,52758.48000000001,8109.68,6.51
+6,USB Hub Pro v06,Electronics,2023-01,43737.60000000001,8109.68,5.39
+6,USB Hub Pro v06,Electronics,2023-02,39090.479999999996,8109.68,4.82
+6,USB Hub Pro v06,Electronics,2023-03,55218.719999999994,8109.68,6.81
+6,USB Hub Pro v06,Electronics,2023-04,80641.2,8109.68,9.94
+6,USB Hub Pro v06,Electronics,2023-05,72349.28000000003,8109.68,8.92
+6,USB Hub Pro v06,Electronics,2023-06,93671.36000000002,8109.68,11.55
+6,USB Hub Pro v06,Electronics,2023-07,65059.68,8109.68,8.02
+6,USB Hub Pro v06,Electronics,2023-08,80003.36000000002,8109.68,9.87
+6,USB Hub Pro v06,Electronics,2023-09,54854.24,8109.68,6.76
+6,USB Hub Pro v06,Electronics,2023-10,53943.040000000015,8109.68,6.65
+6,USB Hub Pro v06,Electronics,2023-11,54672.0,8109.68,6.74
+6,USB Hub Pro v06,Electronics,2023-12,58225.68000000001,8109.68,7.18
+7,Wireless Sensor v07,Electronics,2022-01,26887.920000000002,14320.74,1.88
+7,Wireless Sensor v07,Electronics,2022-02,27180.180000000008,14320.74,1.9
+7,Wireless Sensor v07,Electronics,2022-03,36824.76,14320.74,2.57
+7,Wireless Sensor v07,Electronics,2022-04,54068.10000000001,14320.74,3.78
+7,Wireless Sensor v07,Electronics,2022-05,70142.4,14320.74,4.9
+7,Wireless Sensor v07,Electronics,2022-06,55821.65999999999,14320.74,3.9
+7,Wireless Sensor v07,Electronics,2022-07,53483.580000000016,14320.74,3.73
+7,Wireless Sensor v07,Electronics,2022-08,49099.68,14320.74,3.43
+7,Wireless Sensor v07,Electronics,2022-09,49099.67999999999,14320.74,3.43
+7,Wireless Sensor v07,Electronics,2022-10,47053.86000000001,14320.74,3.29
+7,Wireless Sensor v07,Electronics,2022-11,42962.219999999994,14320.74,3.0
+7,Wireless Sensor v07,Electronics,2022-12,47930.64,14320.74,3.35
+7,Wireless Sensor v07,Electronics,2023-01,34778.94,14320.74,2.43
+7,Wireless Sensor v07,Electronics,2023-02,26595.66,14320.74,1.86
+7,Wireless Sensor v07,Electronics,2023-03,39162.840000000004,14320.74,2.73
+7,Wireless Sensor v07,Electronics,2023-04,54360.36,14320.74,3.8
+7,Wireless Sensor v07,Electronics,2023-05,65758.49999999999,14320.74,4.59
+7,Wireless Sensor v07,Electronics,2023-06,61082.34,14320.74,4.27
+7,Wireless Sensor v07,Electronics,2023-07,71019.18000000001,14320.74,4.96
+7,Wireless Sensor v07,Electronics,2023-08,54652.62000000002,14320.74,3.82
+7,Wireless Sensor v07,Electronics,2023-09,47638.380000000005,14320.74,3.33
+7,Wireless Sensor v07,Electronics,2023-10,48222.9,14320.74,3.37
+7,Wireless Sensor v07,Electronics,2023-11,43838.99999999999,14320.74,3.06
+7,Wireless Sensor v07,Electronics,2023-12,51730.02,14320.74,3.61
+8,Power Supply Unit v08,Electronics,2022-01,40666.079999999994,37723.14,1.08
+8,Power Supply Unit v08,Electronics,2022-02,35449.05000000002,37723.14,0.94
+8,Power Supply Unit v08,Electronics,2022-03,52170.30000000002,37723.14,1.38
+8,Power Supply Unit v08,Electronics,2022-04,53508.00000000002,37723.14,1.42
+8,Power Supply Unit v08,Electronics,2022-05,60597.81000000001,37723.14,1.61
+8,Power Supply Unit v08,Electronics,2022-06,42405.09,37723.14,1.12
+8,Power Supply Unit v08,Electronics,2022-07,50832.6,37723.14,1.35
+8,Power Supply Unit v08,Electronics,2022-08,46016.880000000005,37723.14,1.22
+8,Power Supply Unit v08,Electronics,2022-09,52972.91999999999,37723.14,1.4
+8,Power Supply Unit v08,Electronics,2022-10,44946.72,37723.14,1.19
+8,Power Supply Unit v08,Electronics,2022-11,51100.14000000001,37723.14,1.35
+8,Power Supply Unit v08,Electronics,2022-12,52571.61,37723.14,1.39
+8,Power Supply Unit v08,Electronics,2023-01,45080.490000000005,37723.14,1.2
+8,Power Supply Unit v08,Electronics,2023-02,40666.08,37723.14,1.08
+8,Power Supply Unit v08,Electronics,2023-03,49227.36,37723.14,1.3
+8,Power Supply Unit v08,Electronics,2023-04,59661.42,37723.14,1.58
+8,Power Supply Unit v08,Electronics,2023-05,64610.90999999999,37723.14,1.71
+8,Power Supply Unit v08,Electronics,2023-06,59393.88000000001,37723.14,1.57
+8,Power Supply Unit v08,Electronics,2023-07,55247.009999999995,37723.14,1.46
+8,Power Supply Unit v08,Electronics,2023-08,43609.02,37723.14,1.16
+8,Power Supply Unit v08,Electronics,2023-09,60062.72999999999,37723.14,1.59
+8,Power Supply Unit v08,Electronics,2023-10,62336.82000000002,37723.14,1.65
+8,Power Supply Unit v08,Electronics,2023-11,55113.240000000005,37723.14,1.46
+8,Power Supply Unit v08,Electronics,2023-12,47087.04,37723.14,1.25
+9,Signal Converter v09,Electronics,2022-01,37227.6,25921.44,1.44
+9,Signal Converter v09,Electronics,2022-02,39709.43999999999,25921.44,1.53
+9,Signal Converter v09,Electronics,2022-03,46051.92,25921.44,1.78
+9,Signal Converter v09,Electronics,2022-04,70318.8,25921.44,2.71
+9,Signal Converter v09,Electronics,2022-05,71421.84,25921.44,2.76
+9,Signal Converter v09,Electronics,2022-06,71697.6,25921.44,2.77
+9,Signal Converter v09,Electronics,2022-07,50739.84,25921.44,1.96
+9,Signal Converter v09,Electronics,2022-08,74179.44,25921.44,2.86
+9,Signal Converter v09,Electronics,2022-09,53773.2,25921.44,2.07
+9,Signal Converter v09,Electronics,2022-10,54048.96000000001,25921.44,2.09
+9,Signal Converter v09,Electronics,2022-11,57358.08,25921.44,2.21
+9,Signal Converter v09,Electronics,2022-12,55703.52,25921.44,2.15
+9,Signal Converter v09,Electronics,2023-01,48258.0,25921.44,1.86
+9,Signal Converter v09,Electronics,2023-02,47430.719999999994,25921.44,1.83
+9,Signal Converter v09,Electronics,2023-03,45500.4,25921.44,1.76
+9,Signal Converter v09,Electronics,2023-04,78867.36000000002,25921.44,3.04
+9,Signal Converter v09,Electronics,2023-05,86312.87999999999,25921.44,3.33
+9,Signal Converter v09,Electronics,2023-06,75006.71999999999,25921.44,2.89
+9,Signal Converter v09,Electronics,2023-07,85761.36,25921.44,3.31
+9,Signal Converter v09,Electronics,2023-08,74179.43999999999,25921.44,2.86
+9,Signal Converter v09,Electronics,2023-09,66458.16,25921.44,2.56
+9,Signal Converter v09,Electronics,2023-10,70870.32,25921.44,2.73
+9,Signal Converter v09,Electronics,2023-11,36124.560000000005,25921.44,1.39
+9,Signal Converter v09,Electronics,2023-12,80797.68,25921.44,3.12
+10,Touch Panel v10,Electronics,2022-01,11867.999999999998,5370.27,2.21
+10,Touch Panel v10,Electronics,2022-02,10829.55,5370.27,2.02
+10,Touch Panel v10,Electronics,2022-03,15250.380000000001,5370.27,2.84
+10,Touch Panel v10,Electronics,2022-04,18247.05,5370.27,3.4
+10,Touch Panel v10,Electronics,2022-05,24833.790000000005,5370.27,4.62
+10,Touch Panel v10,Electronics,2022-06,20769.0,5370.27,3.87
+10,Touch Panel v10,Electronics,2022-07,18009.69,5370.27,3.35
+10,Touch Panel v10,Electronics,2022-08,21896.46,5370.27,4.08
+10,Touch Panel v10,Electronics,2022-09,14716.320000000002,5370.27,2.74
+10,Touch Panel v10,Electronics,2022-10,17505.3,5370.27,3.26
+10,Touch Panel v10,Electronics,2022-11,16229.489999999998,5370.27,3.02
+10,Touch Panel v10,Electronics,2022-12,18632.76,5370.27,3.47
+10,Touch Panel v10,Electronics,2023-01,14300.939999999999,5370.27,2.66
+10,Touch Panel v10,Electronics,2023-02,10503.18,5370.27,1.96
+10,Touch Panel v10,Electronics,2023-03,15873.450000000003,5370.27,2.96
+10,Touch Panel v10,Electronics,2023-04,21481.08,5370.27,4.0
+10,Touch Panel v10,Electronics,2023-05,24388.74,5370.27,4.54
+10,Touch Panel v10,Electronics,2023-06,23409.63,5370.27,4.36
+10,Touch Panel v10,Electronics,2023-07,25397.52,5370.27,4.73
+10,Touch Panel v10,Electronics,2023-08,21303.06,5370.27,3.97
+10,Touch Panel v10,Electronics,2023-09,22104.150000000005,5370.27,4.12
+10,Touch Panel v10,Electronics,2023-10,18454.739999999998,5370.27,3.44
+10,Touch Panel v10,Electronics,2023-11,19255.83,5370.27,3.59
+10,Touch Panel v10,Electronics,2023-12,18899.79,5370.27,3.52
+11,Hydraulic Pump v01,Industrial Parts,2022-01,24566.15,6345.5,3.87
+11,Hydraulic Pump v01,Industrial Parts,2022-02,19127.15,6345.5,3.01
+11,Hydraulic Pump v01,Industrial Parts,2022-03,15682.45,6345.5,2.47
+11,Hydraulic Pump v01,Industrial Parts,2022-04,18673.899999999998,6345.5,2.94
+11,Hydraulic Pump v01,Industrial Parts,2022-05,21846.649999999998,6345.5,3.44
+11,Hydraulic Pump v01,Industrial Parts,2022-06,34356.350000000006,6345.5,5.41
+11,Hydraulic Pump v01,Industrial Parts,2022-07,23206.4,6345.5,3.66
+11,Hydraulic Pump v01,Industrial Parts,2022-08,20758.85,6345.5,3.27
+11,Hydraulic Pump v01,Industrial Parts,2022-09,22753.150000000005,6345.5,3.59
+11,Hydraulic Pump v01,Industrial Parts,2022-10,16317.000000000002,6345.5,2.57
+11,Hydraulic Pump v01,Industrial Parts,2022-11,20214.950000000004,6345.5,3.19
+11,Hydraulic Pump v01,Industrial Parts,2022-12,22571.85,6345.5,3.56
+11,Hydraulic Pump v01,Industrial Parts,2023-01,19852.350000000002,6345.5,3.13
+11,Hydraulic Pump v01,Industrial Parts,2023-02,21393.4,6345.5,3.37
+11,Hydraulic Pump v01,Industrial Parts,2023-03,18945.85,6345.5,2.99
+11,Hydraulic Pump v01,Industrial Parts,2023-04,23568.999999999996,6345.5,3.71
+11,Hydraulic Pump v01,Industrial Parts,2023-05,32724.65,6345.5,5.16
+11,Hydraulic Pump v01,Industrial Parts,2023-06,24566.15000000001,6345.5,3.87
+11,Hydraulic Pump v01,Industrial Parts,2023-07,30549.05,6345.5,4.81
+11,Hydraulic Pump v01,Industrial Parts,2023-08,26197.85,6345.5,4.13
+11,Hydraulic Pump v01,Industrial Parts,2023-09,29279.95,6345.5,4.61
+11,Hydraulic Pump v01,Industrial Parts,2023-10,25653.95,6345.5,4.04
+11,Hydraulic Pump v01,Industrial Parts,2023-11,16679.600000000002,6345.5,2.63
+11,Hydraulic Pump v01,Industrial Parts,2023-12,24384.85,6345.5,3.84
+12,Ball Bearing v02,Industrial Parts,2022-01,19468.4,3808.0,5.11
+12,Ball Bearing v02,Industrial Parts,2022-02,12376.000000000002,3808.0,3.25
+12,Ball Bearing v02,Industrial Parts,2022-03,16660.0,3808.0,4.38
+12,Ball Bearing v02,Industrial Parts,2022-04,21800.800000000003,3808.0,5.73
+12,Ball Bearing v02,Industrial Parts,2022-05,22657.6,3808.0,5.95
+12,Ball Bearing v02,Industrial Parts,2022-06,27750.8,3808.0,7.29
+12,Ball Bearing v02,Industrial Parts,2022-07,20801.199999999997,3808.0,5.46
+12,Ball Bearing v02,Industrial Parts,2022-08,23895.2,3808.0,6.28
+12,Ball Bearing v02,Industrial Parts,2022-09,20896.400000000005,3808.0,5.49
+12,Ball Bearing v02,Industrial Parts,2022-10,29274.000000000004,3808.0,7.69
+12,Ball Bearing v02,Industrial Parts,2022-11,18088.000000000004,3808.0,4.75
+12,Ball Bearing v02,Industrial Parts,2022-12,23847.6,3808.0,6.26
+12,Ball Bearing v02,Industrial Parts,2023-01,20468.0,3808.0,5.38
+12,Ball Bearing v02,Industrial Parts,2023-02,16755.199999999997,3808.0,4.4
+12,Ball Bearing v02,Industrial Parts,2023-03,24037.999999999993,3808.0,6.31
+12,Ball Bearing v02,Industrial Parts,2023-04,25846.8,3808.0,6.79
+12,Ball Bearing v02,Industrial Parts,2023-05,34748.00000000001,3808.0,9.13
+12,Ball Bearing v02,Industrial Parts,2023-06,32748.8,3808.0,8.6
+12,Ball Bearing v02,Industrial Parts,2023-07,18088.0,3808.0,4.75
+12,Ball Bearing v02,Industrial Parts,2023-08,34795.600000000006,3808.0,9.14
+12,Ball Bearing v02,Industrial Parts,2023-09,26465.600000000002,3808.0,6.95
+12,Ball Bearing v02,Industrial Parts,2023-10,20944.0,3808.0,5.5
+12,Ball Bearing v02,Industrial Parts,2023-11,22276.800000000007,3808.0,5.85
+12,Ball Bearing v02,Industrial Parts,2023-12,27084.399999999998,3808.0,7.11
+13,Drive Shaft v03,Industrial Parts,2022-01,3369.86,2871.36,1.17
+13,Drive Shaft v03,Industrial Parts,2022-02,3668.96,2871.36,1.28
+13,Drive Shaft v03,Industrial Parts,2022-03,3389.8,2871.36,1.18
+13,Drive Shaft v03,Industrial Parts,2022-04,4466.56,2871.36,1.56
+13,Drive Shaft v03,Industrial Parts,2022-05,4745.72,2871.36,1.65
+13,Drive Shaft v03,Industrial Parts,2022-06,4566.26,2871.36,1.59
+13,Drive Shaft v03,Industrial Parts,2022-07,5024.879999999999,2871.36,1.75
+13,Drive Shaft v03,Industrial Parts,2022-08,5503.4400000000005,2871.36,1.92
+13,Drive Shaft v03,Industrial Parts,2022-09,4386.799999999999,2871.36,1.53
+13,Drive Shaft v03,Industrial Parts,2022-10,4586.200000000001,2871.36,1.6
+13,Drive Shaft v03,Industrial Parts,2022-11,4346.920000000001,2871.36,1.51
+13,Drive Shaft v03,Industrial Parts,2022-12,3908.2400000000007,2871.36,1.36
+13,Drive Shaft v03,Industrial Parts,2023-01,3589.2000000000003,2871.36,1.25
+13,Drive Shaft v03,Industrial Parts,2023-02,3090.7000000000003,2871.36,1.08
+13,Drive Shaft v03,Industrial Parts,2023-03,4566.26,2871.36,1.59
+13,Drive Shaft v03,Industrial Parts,2023-04,3908.2400000000002,2871.36,1.36
+13,Drive Shaft v03,Industrial Parts,2023-05,6779.600000000001,2871.36,2.36
+13,Drive Shaft v03,Industrial Parts,2023-06,5104.64,2871.36,1.78
+13,Drive Shaft v03,Industrial Parts,2023-07,6141.520000000001,2871.36,2.14
+13,Drive Shaft v03,Industrial Parts,2023-08,3349.9200000000005,2871.36,1.17
+13,Drive Shaft v03,Industrial Parts,2023-09,4326.9800000000005,2871.36,1.51
+13,Drive Shaft v03,Industrial Parts,2023-10,3649.02,2871.36,1.27
+13,Drive Shaft v03,Industrial Parts,2023-11,4606.140000000001,2871.36,1.6
+13,Drive Shaft v03,Industrial Parts,2023-12,6480.500000000003,2871.36,2.26
+14,Conveyor Belt v04,Industrial Parts,2022-01,11566.229999999998,6562.4,1.76
+14,Conveyor Belt v04,Industrial Parts,2022-02,8367.06,6562.4,1.28
+14,Conveyor Belt v04,Industrial Parts,2022-03,10335.779999999999,6562.4,1.58
+14,Conveyor Belt v04,Industrial Parts,2022-04,15339.609999999999,6562.4,2.34
+14,Conveyor Belt v04,Industrial Parts,2022-05,15995.850000000002,6562.4,2.44
+14,Conveyor Belt v04,Industrial Parts,2022-06,14929.459999999997,6562.4,2.28
+14,Conveyor Belt v04,Industrial Parts,2022-07,13616.980000000001,6562.4,2.08
+14,Conveyor Belt v04,Industrial Parts,2022-08,13945.099999999999,6562.4,2.13
+14,Conveyor Belt v04,Industrial Parts,2022-09,15421.64,6562.4,2.35
+14,Conveyor Belt v04,Industrial Parts,2022-10,11074.050000000001,6562.4,1.69
+14,Conveyor Belt v04,Industrial Parts,2022-11,12058.41,6562.4,1.84
+14,Conveyor Belt v04,Industrial Parts,2022-12,11566.23,6562.4,1.76
+14,Conveyor Belt v04,Industrial Parts,2023-01,10253.749999999998,6562.4,1.56
+14,Conveyor Belt v04,Industrial Parts,2023-02,8695.179999999998,6562.4,1.33
+14,Conveyor Belt v04,Industrial Parts,2023-03,11074.05,6562.4,1.69
+14,Conveyor Belt v04,Industrial Parts,2023-04,14683.370000000003,6562.4,2.24
+14,Conveyor Belt v04,Industrial Parts,2023-05,17554.420000000002,6562.4,2.68
+14,Conveyor Belt v04,Industrial Parts,2023-06,16898.179999999997,6562.4,2.58
+14,Conveyor Belt v04,Industrial Parts,2023-07,17800.509999999995,6562.4,2.71
+14,Conveyor Belt v04,Industrial Parts,2023-08,15011.489999999998,6562.4,2.29
+14,Conveyor Belt v04,Industrial Parts,2023-09,15339.610000000004,6562.4,2.34
+14,Conveyor Belt v04,Industrial Parts,2023-10,11566.23,6562.4,1.76
+14,Conveyor Belt v04,Industrial Parts,2023-11,13042.769999999997,6562.4,1.99
+14,Conveyor Belt v04,Industrial Parts,2023-12,14273.220000000001,6562.4,2.18
+15,Gear Assembly v05,Industrial Parts,2022-01,17961.3,15908.58,1.13
+15,Gear Assembly v05,Industrial Parts,2022-02,26343.24,15908.58,1.66
+15,Gear Assembly v05,Industrial Parts,2022-03,32672.460000000003,15908.58,2.05
+15,Gear Assembly v05,Industrial Parts,2022-04,38659.560000000005,15908.58,2.43
+15,Gear Assembly v05,Industrial Parts,2022-05,49179.75000000001,15908.58,3.09
+15,Gear Assembly v05,Industrial Parts,2022-06,39258.270000000004,15908.58,2.47
+15,Gear Assembly v05,Industrial Parts,2022-07,38659.56,15908.58,2.43
+15,Gear Assembly v05,Industrial Parts,2022-08,32929.05,15908.58,2.07
+15,Gear Assembly v05,Industrial Parts,2022-09,37034.49,15908.58,2.33
+15,Gear Assembly v05,Industrial Parts,2022-10,29422.319999999996,15908.58,1.85
+15,Gear Assembly v05,Industrial Parts,2022-11,31132.92,15908.58,1.96
+15,Gear Assembly v05,Industrial Parts,2022-12,25659.0,15908.58,1.61
+15,Gear Assembly v05,Industrial Parts,2023-01,23178.630000000005,15908.58,1.46
+15,Gear Assembly v05,Industrial Parts,2023-02,30192.090000000004,15908.58,1.9
+15,Gear Assembly v05,Industrial Parts,2023-03,34040.94,15908.58,2.14
+15,Gear Assembly v05,Industrial Parts,2023-04,55765.560000000005,15908.58,3.51
+15,Gear Assembly v05,Industrial Parts,2023-05,58416.99000000001,15908.58,3.67
+15,Gear Assembly v05,Industrial Parts,2023-06,42337.34999999999,15908.58,2.66
+15,Gear Assembly v05,Industrial Parts,2023-07,34383.06,15908.58,2.16
+15,Gear Assembly v05,Industrial Parts,2023-08,39856.979999999996,15908.58,2.51
+15,Gear Assembly v05,Industrial Parts,2023-09,39343.8,15908.58,2.47
+15,Gear Assembly v05,Industrial Parts,2023-10,37205.55,15908.58,2.34
+15,Gear Assembly v05,Industrial Parts,2023-11,41310.990000000005,15908.58,2.6
+15,Gear Assembly v05,Industrial Parts,2023-12,37889.79,15908.58,2.38
+16,Valve Controller v06,Industrial Parts,2022-01,35898.4,35118.0,1.02
+16,Valve Controller v06,Industrial Parts,2022-02,28874.8,35118.0,0.82
+16,Valve Controller v06,Industrial Parts,2022-03,41361.2,35118.0,1.18
+16,Valve Controller v06,Industrial Parts,2022-04,60090.799999999996,35118.0,1.71
+16,Valve Controller v06,Industrial Parts,2022-05,60578.55,35118.0,1.73
+16,Valve Controller v06,Industrial Parts,2022-06,65553.6,35118.0,1.87
+16,Valve Controller v06,Industrial Parts,2022-07,61261.39999999999,35118.0,1.74
+16,Valve Controller v06,Industrial Parts,2022-08,61651.600000000006,35118.0,1.76
+16,Valve Controller v06,Industrial Parts,2022-09,36776.35,35118.0,1.05
+16,Valve Controller v06,Industrial Parts,2022-10,54432.899999999994,35118.0,1.55
+16,Valve Controller v06,Industrial Parts,2022-11,56774.1,35118.0,1.62
+16,Valve Controller v06,Industrial Parts,2022-12,42824.450000000004,35118.0,1.22
+16,Valve Controller v06,Industrial Parts,2023-01,43702.4,35118.0,1.24
+16,Valve Controller v06,Industrial Parts,2023-02,38239.6,35118.0,1.09
+16,Valve Controller v06,Industrial Parts,2023-03,60578.55,35118.0,1.73
+16,Valve Controller v06,Industrial Parts,2023-04,62627.10000000001,35118.0,1.78
+16,Valve Controller v06,Industrial Parts,2023-05,83795.45,35118.0,2.39
+16,Valve Controller v06,Industrial Parts,2023-06,67407.05000000002,35118.0,1.92
+16,Valve Controller v06,Industrial Parts,2023-07,55993.700000000004,35118.0,1.59
+16,Valve Controller v06,Industrial Parts,2023-08,78040.0,35118.0,2.22
+16,Valve Controller v06,Industrial Parts,2023-09,53262.3,35118.0,1.52
+16,Valve Controller v06,Industrial Parts,2023-10,58920.20000000002,35118.0,1.68
+16,Valve Controller v06,Industrial Parts,2023-11,46433.8,35118.0,1.32
+16,Valve Controller v06,Industrial Parts,2023-12,59017.75,35118.0,1.68
+17,Pneumatic Cylinder v07,Industrial Parts,2022-01,26048.880000000005,28052.64,0.93
+17,Pneumatic Cylinder v07,Industrial Parts,2022-02,17198.94,28052.64,0.61
+17,Pneumatic Cylinder v07,Industrial Parts,2022-03,34481.36999999999,28052.64,1.23
+17,Pneumatic Cylinder v07,Industrial Parts,2022-04,34731.84,28052.64,1.24
+17,Pneumatic Cylinder v07,Industrial Parts,2022-05,49175.61,28052.64,1.75
+17,Pneumatic Cylinder v07,Industrial Parts,2022-06,45335.06999999999,28052.64,1.62
+17,Pneumatic Cylinder v07,Industrial Parts,2022-07,31893.179999999997,28052.64,1.14
+17,Pneumatic Cylinder v07,Industrial Parts,2022-08,34898.81999999999,28052.64,1.24
+17,Pneumatic Cylinder v07,Industrial Parts,2022-09,37320.03,28052.64,1.33
+17,Pneumatic Cylinder v07,Industrial Parts,2022-10,38071.44,28052.64,1.36
+17,Pneumatic Cylinder v07,Industrial Parts,2022-11,31559.220000000005,28052.64,1.13
+17,Pneumatic Cylinder v07,Industrial Parts,2022-12,39073.31999999999,28052.64,1.39
+17,Pneumatic Cylinder v07,Industrial Parts,2023-01,33312.509999999995,28052.64,1.19
+17,Pneumatic Cylinder v07,Industrial Parts,2023-02,24379.079999999998,28052.64,0.87
+17,Pneumatic Cylinder v07,Industrial Parts,2023-03,30223.379999999997,28052.64,1.08
+17,Pneumatic Cylinder v07,Industrial Parts,2023-04,42663.38999999999,28052.64,1.52
+17,Pneumatic Cylinder v07,Industrial Parts,2023-05,48591.17999999999,28052.64,1.73
+17,Pneumatic Cylinder v07,Industrial Parts,2023-06,40242.18,28052.64,1.43
+17,Pneumatic Cylinder v07,Industrial Parts,2023-07,41578.02,28052.64,1.48
+17,Pneumatic Cylinder v07,Industrial Parts,2023-08,49593.05999999999,28052.64,1.77
+17,Pneumatic Cylinder v07,Industrial Parts,2023-09,44834.13,28052.64,1.6
+17,Pneumatic Cylinder v07,Industrial Parts,2023-10,44917.619999999995,28052.64,1.6
+17,Pneumatic Cylinder v07,Industrial Parts,2023-11,35399.76,28052.64,1.26
+17,Pneumatic Cylinder v07,Industrial Parts,2023-12,42412.91999999999,28052.64,1.51
+18,Coupling Flange v08,Industrial Parts,2022-01,2000.6999999999998,1105.6499999999999,1.81
+18,Coupling Flange v08,Industrial Parts,2022-02,1965.6000000000001,1105.6499999999999,1.78
+18,Coupling Flange v08,Industrial Parts,2022-03,2632.4999999999995,1105.6499999999999,2.38
+18,Coupling Flange v08,Industrial Parts,2022-04,3363.7500000000005,1105.6499999999999,3.04
+18,Coupling Flange v08,Industrial Parts,2022-05,3708.8999999999987,1105.6499999999999,3.35
+18,Coupling Flange v08,Industrial Parts,2022-06,3276.0000000000005,1105.6499999999999,2.96
+18,Coupling Flange v08,Industrial Parts,2022-07,3381.3,1105.6499999999999,3.06
+18,Coupling Flange v08,Industrial Parts,2022-08,2246.3999999999996,1105.6499999999999,2.03
+18,Coupling Flange v08,Industrial Parts,2022-09,2661.7499999999995,1105.6499999999999,2.41
+18,Coupling Flange v08,Industrial Parts,2022-10,2796.2999999999997,1105.6499999999999,2.53
+18,Coupling Flange v08,Industrial Parts,2022-11,2895.749999999999,1105.6499999999999,2.62
+18,Coupling Flange v08,Industrial Parts,2022-12,2503.7999999999993,1105.6499999999999,2.26
+18,Coupling Flange v08,Industrial Parts,2023-01,3042.0,1105.6499999999999,2.75
+18,Coupling Flange v08,Industrial Parts,2023-02,2012.3999999999999,1105.6499999999999,1.82
+18,Coupling Flange v08,Industrial Parts,2023-03,2328.2999999999993,1105.6499999999999,2.11
+18,Coupling Flange v08,Industrial Parts,2023-04,2035.8,1105.6499999999999,1.84
+18,Coupling Flange v08,Industrial Parts,2023-05,3006.9,1105.6499999999999,2.72
+18,Coupling Flange v08,Industrial Parts,2023-06,3024.45,1105.6499999999999,2.74
+18,Coupling Flange v08,Industrial Parts,2023-07,2480.4,1105.6499999999999,2.24
+18,Coupling Flange v08,Industrial Parts,2023-08,2638.3499999999995,1105.6499999999999,2.39
+18,Coupling Flange v08,Industrial Parts,2023-09,3293.55,1105.6499999999999,2.98
+18,Coupling Flange v08,Industrial Parts,2023-10,2503.7999999999997,1105.6499999999999,2.26
+18,Coupling Flange v08,Industrial Parts,2023-11,2948.4000000000005,1105.6499999999999,2.67
+18,Coupling Flange v08,Industrial Parts,2023-12,2562.2999999999993,1105.6499999999999,2.32
+19,Torque Sensor v09,Industrial Parts,2022-01,35469.07999999999,2927.06,12.12
+19,Torque Sensor v09,Industrial Parts,2022-02,34435.999999999985,2927.06,11.76
+19,Torque Sensor v09,Industrial Parts,2022-03,38740.49999999999,2927.06,13.24
+19,Torque Sensor v09,Industrial Parts,2022-04,36932.60999999999,2927.06,12.62
+19,Torque Sensor v09,Industrial Parts,2022-05,50018.28999999999,2927.06,17.09
+19,Torque Sensor v09,Industrial Parts,2022-06,42958.91,2927.06,14.68
+19,Torque Sensor v09,Industrial Parts,2022-07,45885.969999999994,2927.06,15.68
+19,Torque Sensor v09,Industrial Parts,2022-08,41839.74,2927.06,14.29
+19,Torque Sensor v09,Industrial Parts,2022-09,41753.649999999994,2927.06,14.26
+19,Torque Sensor v09,Industrial Parts,2022-10,38826.59,2927.06,13.26
+19,Torque Sensor v09,Industrial Parts,2022-11,41323.2,2927.06,14.12
+19,Torque Sensor v09,Industrial Parts,2022-12,41925.829999999994,2927.06,14.32
+19,Torque Sensor v09,Industrial Parts,2023-01,43131.09,2927.06,14.74
+19,Torque Sensor v09,Industrial Parts,2023-02,30561.949999999993,2927.06,10.44
+19,Torque Sensor v09,Industrial Parts,2023-03,40204.03,2927.06,13.74
+19,Torque Sensor v09,Industrial Parts,2023-04,49157.39000000001,2927.06,16.79
+19,Torque Sensor v09,Industrial Parts,2023-05,54322.79000000001,2927.06,18.56
+19,Torque Sensor v09,Industrial Parts,2023-06,51567.90999999999,2927.06,17.62
+19,Torque Sensor v09,Industrial Parts,2023-07,46144.24,2927.06,15.76
+19,Torque Sensor v09,Industrial Parts,2023-08,50018.29,2927.06,17.09
+19,Torque Sensor v09,Industrial Parts,2023-09,46660.77999999999,2927.06,15.94
+19,Torque Sensor v09,Industrial Parts,2023-10,44938.97999999999,2927.06,15.35
+19,Torque Sensor v09,Industrial Parts,2023-11,44508.53,2927.06,15.21
+19,Torque Sensor v09,Industrial Parts,2023-12,51223.55000000001,2927.06,17.5
+20,Filter Housing v10,Industrial Parts,2022-01,12392.159999999996,4717.469999999999,2.63
+20,Filter Housing v10,Industrial Parts,2022-02,10139.039999999997,4717.469999999999,2.15
+20,Filter Housing v10,Industrial Parts,2022-03,10139.039999999999,4717.469999999999,2.15
+20,Filter Housing v10,Industrial Parts,2022-04,13096.26,4717.469999999999,2.78
+20,Filter Housing v10,Industrial Parts,2022-05,17180.04,4717.469999999999,3.64
+20,Filter Housing v10,Industrial Parts,2022-06,15067.740000000005,4717.469999999999,3.19
+20,Filter Housing v10,Industrial Parts,2022-07,12603.390000000001,4717.469999999999,2.67
+20,Filter Housing v10,Industrial Parts,2022-08,14011.590000000002,4717.469999999999,2.97
+20,Filter Housing v10,Industrial Parts,2022-09,13518.720000000001,4717.469999999999,2.87
+20,Filter Housing v10,Industrial Parts,2022-10,16475.940000000002,4717.469999999999,3.49
+20,Filter Housing v10,Industrial Parts,2022-11,10491.09,4717.469999999999,2.22
+20,Filter Housing v10,Industrial Parts,2022-12,12532.980000000001,4717.469999999999,2.66
+20,Filter Housing v10,Industrial Parts,2023-01,10209.449999999997,4717.469999999999,2.16
+20,Filter Housing v10,Industrial Parts,2023-02,8942.07,4717.469999999999,1.9
+20,Filter Housing v10,Industrial Parts,2023-03,11406.420000000002,4717.469999999999,2.42
+20,Filter Housing v10,Industrial Parts,2023-04,19151.519999999997,4717.469999999999,4.06
+20,Filter Housing v10,Industrial Parts,2023-05,15912.660000000002,4717.469999999999,3.37
+20,Filter Housing v10,Industrial Parts,2023-06,14011.590000000002,4717.469999999999,2.97
+20,Filter Housing v10,Industrial Parts,2023-07,15912.660000000005,4717.469999999999,3.37
+20,Filter Housing v10,Industrial Parts,2023-08,15208.560000000003,4717.469999999999,3.22
+20,Filter Housing v10,Industrial Parts,2023-09,16827.99,4717.469999999999,3.57
+20,Filter Housing v10,Industrial Parts,2023-10,13800.360000000002,4717.469999999999,2.93
+20,Filter Housing v10,Industrial Parts,2023-11,12110.52,4717.469999999999,2.57
+20,Filter Housing v10,Industrial Parts,2023-12,14363.640000000001,4717.469999999999,3.04
+21,Stretch Wrap Film v01,Packaging,2022-01,3808.3499999999995,2817.3599999999997,1.35
+21,Stretch Wrap Film v01,Packaging,2022-02,4094.9999999999995,2817.3599999999997,1.45
+21,Stretch Wrap Film v01,Packaging,2022-03,4455.359999999999,2817.3599999999997,1.58
+21,Stretch Wrap Film v01,Packaging,2022-04,5372.64,2817.3599999999997,1.91
+21,Stretch Wrap Film v01,Packaging,2022-05,6085.170000000001,2817.3599999999997,2.16
+21,Stretch Wrap Film v01,Packaging,2022-06,4799.339999999999,2817.3599999999997,1.7
+21,Stretch Wrap Film v01,Packaging,2022-07,5855.849999999999,2817.3599999999997,2.08
+21,Stretch Wrap Film v01,Packaging,2022-08,5143.32,2817.3599999999997,1.83
+21,Stretch Wrap Film v01,Packaging,2022-09,4766.580000000001,2817.3599999999997,1.69
+21,Stretch Wrap Film v01,Packaging,2022-10,4971.330000000001,2817.3599999999997,1.76
+21,Stretch Wrap Film v01,Packaging,2022-11,4889.4299999999985,2817.3599999999997,1.74
+21,Stretch Wrap Film v01,Packaging,2022-12,6003.2699999999995,2817.3599999999997,2.13
+21,Stretch Wrap Film v01,Packaging,2023-01,5421.779999999999,2817.3599999999997,1.92
+21,Stretch Wrap Film v01,Packaging,2023-02,3775.59,2817.3599999999997,1.34
+21,Stretch Wrap Film v01,Packaging,2023-03,3906.63,2817.3599999999997,1.39
+21,Stretch Wrap Film v01,Packaging,2023-04,5536.439999999999,2817.3599999999997,1.97
+21,Stretch Wrap Film v01,Packaging,2023-05,8181.81,2817.3599999999997,2.9
+21,Stretch Wrap Film v01,Packaging,2023-06,6183.449999999999,2817.3599999999997,2.19
+21,Stretch Wrap Film v01,Packaging,2023-07,6674.849999999998,2817.3599999999997,2.37
+21,Stretch Wrap Film v01,Packaging,2023-08,6044.219999999999,2817.3599999999997,2.15
+21,Stretch Wrap Film v01,Packaging,2023-09,6322.68,2817.3599999999997,2.24
+21,Stretch Wrap Film v01,Packaging,2023-10,5683.86,2817.3599999999997,2.02
+21,Stretch Wrap Film v01,Packaging,2023-11,4987.71,2817.3599999999997,1.77
+21,Stretch Wrap Film v01,Packaging,2023-12,6363.629999999999,2817.3599999999997,2.26
+22,Cardboard Box v02,Packaging,2022-01,2762.0999999999995,864.9000000000001,3.19
+22,Cardboard Box v02,Packaging,2022-02,2092.5,864.9000000000001,2.42
+22,Cardboard Box v02,Packaging,2022-03,2697.0000000000005,864.9000000000001,3.12
+22,Cardboard Box v02,Packaging,2022-04,3106.1999999999994,864.9000000000001,3.59
+22,Cardboard Box v02,Packaging,2022-05,2901.6000000000004,864.9000000000001,3.35
+22,Cardboard Box v02,Packaging,2022-06,3096.9,864.9000000000001,3.58
+22,Cardboard Box v02,Packaging,2022-07,4026.9,864.9000000000001,4.66
+22,Cardboard Box v02,Packaging,2022-08,3171.3,864.9000000000001,3.67
+22,Cardboard Box v02,Packaging,2022-09,2910.9,864.9000000000001,3.37
+22,Cardboard Box v02,Packaging,2022-10,2957.4,864.9000000000001,3.42
+22,Cardboard Box v02,Packaging,2022-11,2948.1,864.9000000000001,3.41
+22,Cardboard Box v02,Packaging,2022-12,3013.2000000000003,864.9000000000001,3.48
+22,Cardboard Box v02,Packaging,2023-01,2929.5000000000005,864.9000000000001,3.39
+22,Cardboard Box v02,Packaging,2023-02,2027.4000000000003,864.9000000000001,2.34
+22,Cardboard Box v02,Packaging,2023-03,3320.1000000000004,864.9000000000001,3.84
+22,Cardboard Box v02,Packaging,2023-04,3710.7,864.9000000000001,4.29
+22,Cardboard Box v02,Packaging,2023-05,3487.5,864.9000000000001,4.03
+22,Cardboard Box v02,Packaging,2023-06,4845.3,864.9000000000001,5.6
+22,Cardboard Box v02,Packaging,2023-07,2976.0,864.9000000000001,3.44
+22,Cardboard Box v02,Packaging,2023-08,3850.2000000000007,864.9000000000001,4.45
+22,Cardboard Box v02,Packaging,2023-09,3320.1000000000004,864.9000000000001,3.84
+22,Cardboard Box v02,Packaging,2023-10,2055.2999999999997,864.9000000000001,2.38
+22,Cardboard Box v02,Packaging,2023-11,2576.1000000000004,864.9000000000001,2.98
+22,Cardboard Box v02,Packaging,2023-12,3282.8999999999996,864.9000000000001,3.8
+23,Bubble Wrap Roll v03,Packaging,2022-01,1954.2599999999998,1025.6399999999999,1.91
+23,Bubble Wrap Roll v03,Packaging,2022-02,2266.110000000001,1025.6399999999999,2.21
+23,Bubble Wrap Roll v03,Packaging,2022-03,2515.59,1025.6399999999999,2.45
+23,Bubble Wrap Roll v03,Packaging,2022-04,2799.7199999999993,1025.6399999999999,2.73
+23,Bubble Wrap Roll v03,Packaging,2022-05,3146.22,1025.6399999999999,3.07
+23,Bubble Wrap Roll v03,Packaging,2022-06,3499.65,1025.6399999999999,3.41
+23,Bubble Wrap Roll v03,Packaging,2022-07,2875.95,1025.6399999999999,2.8
+23,Bubble Wrap Roll v03,Packaging,2022-08,2252.25,1025.6399999999999,2.2
+23,Bubble Wrap Roll v03,Packaging,2022-09,2688.84,1025.6399999999999,2.62
+23,Bubble Wrap Roll v03,Packaging,2022-10,2245.3199999999997,1025.6399999999999,2.19
+23,Bubble Wrap Roll v03,Packaging,2022-11,2681.91,1025.6399999999999,2.61
+23,Bubble Wrap Roll v03,Packaging,2022-12,2626.4700000000003,1025.6399999999999,2.56
+23,Bubble Wrap Roll v03,Packaging,2023-01,2085.93,1025.6399999999999,2.03
+23,Bubble Wrap Roll v03,Packaging,2023-02,2044.35,1025.6399999999999,1.99
+23,Bubble Wrap Roll v03,Packaging,2023-03,1884.9599999999998,1025.6399999999999,1.84
+23,Bubble Wrap Roll v03,Packaging,2023-04,3063.06,1025.6399999999999,2.99
+23,Bubble Wrap Roll v03,Packaging,2023-05,3146.22,1025.6399999999999,3.07
+23,Bubble Wrap Roll v03,Packaging,2023-06,3998.6099999999997,1025.6399999999999,3.9
+23,Bubble Wrap Roll v03,Packaging,2023-07,3236.309999999999,1025.6399999999999,3.16
+23,Bubble Wrap Roll v03,Packaging,2023-08,3471.93,1025.6399999999999,3.39
+23,Bubble Wrap Roll v03,Packaging,2023-09,2688.8400000000006,1025.6399999999999,2.62
+23,Bubble Wrap Roll v03,Packaging,2023-10,2744.28,1025.6399999999999,2.68
+23,Bubble Wrap Roll v03,Packaging,2023-11,3333.3299999999995,1025.6399999999999,3.25
+23,Bubble Wrap Roll v03,Packaging,2023-12,3638.2499999999995,1025.6399999999999,3.55
+24,Shrink Sleeve v04,Packaging,2022-01,877.68,270.47999999999996,3.24
+24,Shrink Sleeve v04,Packaging,2022-02,662.4000000000001,270.47999999999996,2.45
+24,Shrink Sleeve v04,Packaging,2022-03,1054.3199999999997,270.47999999999996,3.9
+24,Shrink Sleeve v04,Packaging,2022-04,1374.4800000000002,270.47999999999996,5.08
+24,Shrink Sleeve v04,Packaging,2022-05,1661.52,270.47999999999996,6.14
+24,Shrink Sleeve v04,Packaging,2022-06,1589.76,270.47999999999996,5.88
+24,Shrink Sleeve v04,Packaging,2022-07,1429.6800000000003,270.47999999999996,5.29
+24,Shrink Sleeve v04,Packaging,2022-08,1164.7200000000003,270.47999999999996,4.31
+24,Shrink Sleeve v04,Packaging,2022-09,1230.96,270.47999999999996,4.55
+24,Shrink Sleeve v04,Packaging,2022-10,1109.5200000000002,270.47999999999996,4.1
+24,Shrink Sleeve v04,Packaging,2022-11,1065.3599999999997,270.47999999999996,3.94
+24,Shrink Sleeve v04,Packaging,2022-12,1175.7599999999998,270.47999999999996,4.35
+24,Shrink Sleeve v04,Packaging,2023-01,800.3999999999999,270.47999999999996,2.96
+24,Shrink Sleeve v04,Packaging,2023-02,772.8000000000001,270.47999999999996,2.86
+24,Shrink Sleeve v04,Packaging,2023-03,1004.6399999999996,270.47999999999996,3.71
+24,Shrink Sleeve v04,Packaging,2023-04,1661.52,270.47999999999996,6.14
+24,Shrink Sleeve v04,Packaging,2023-05,1832.6399999999996,270.47999999999996,6.78
+24,Shrink Sleeve v04,Packaging,2023-06,1716.7199999999998,270.47999999999996,6.35
+24,Shrink Sleeve v04,Packaging,2023-07,1639.4400000000003,270.47999999999996,6.06
+24,Shrink Sleeve v04,Packaging,2023-08,1462.8,270.47999999999996,5.41
+24,Shrink Sleeve v04,Packaging,2023-09,1451.7600000000002,270.47999999999996,5.37
+24,Shrink Sleeve v04,Packaging,2023-10,1208.8800000000003,270.47999999999996,4.47
+24,Shrink Sleeve v04,Packaging,2023-11,1357.9200000000003,270.47999999999996,5.02
+24,Shrink Sleeve v04,Packaging,2023-12,1131.6,270.47999999999996,4.18
+25,Pallet Wrap v05,Packaging,2022-01,6237.55,855.73,7.29
+25,Pallet Wrap v05,Packaging,2022-02,5289.030000000002,855.73,6.18
+25,Pallet Wrap v05,Packaging,2022-03,6660.26,855.73,7.78
+25,Pallet Wrap v05,Packaging,2022-04,6814.91,855.73,7.96
+25,Pallet Wrap v05,Packaging,2022-05,8412.960000000001,855.73,9.83
+25,Pallet Wrap v05,Packaging,2022-06,7340.720000000001,855.73,8.58
+25,Pallet Wrap v05,Packaging,2022-07,7443.819999999999,855.73,8.7
+25,Pallet Wrap v05,Packaging,2022-08,7309.789999999999,855.73,8.54
+25,Pallet Wrap v05,Packaging,2022-09,7320.0999999999985,855.73,8.55
+25,Pallet Wrap v05,Packaging,2022-10,7897.46,855.73,9.23
+25,Pallet Wrap v05,Packaging,2022-11,7062.350000000001,855.73,8.25
+25,Pallet Wrap v05,Packaging,2022-12,5567.400000000001,855.73,6.51
+25,Pallet Wrap v05,Packaging,2023-01,6577.78,855.73,7.69
+25,Pallet Wrap v05,Packaging,2023-02,5402.440000000002,855.73,6.31
+25,Pallet Wrap v05,Packaging,2023-03,6536.540000000001,855.73,7.64
+25,Pallet Wrap v05,Packaging,2023-04,8330.48,855.73,9.73
+25,Pallet Wrap v05,Packaging,2023-05,9897.6,855.73,11.57
+25,Pallet Wrap v05,Packaging,2023-06,9258.38,855.73,10.82
+25,Pallet Wrap v05,Packaging,2023-07,8237.69,855.73,9.63
+25,Pallet Wrap v05,Packaging,2023-08,8701.640000000001,855.73,10.17
+25,Pallet Wrap v05,Packaging,2023-09,7206.690000000001,855.73,8.42
+25,Pallet Wrap v05,Packaging,2023-10,8227.380000000001,855.73,9.61
+25,Pallet Wrap v05,Packaging,2023-11,8536.68,855.73,9.98
+25,Pallet Wrap v05,Packaging,2023-12,9464.580000000004,855.73,11.06
+26,Foam Insert v06,Packaging,2022-01,1077.1200000000001,273.02000000000004,3.95
+26,Foam Insert v06,Packaging,2022-02,942.4799999999999,273.02000000000004,3.45
+26,Foam Insert v06,Packaging,2022-03,1234.1999999999996,273.02000000000004,4.52
+26,Foam Insert v06,Packaging,2022-04,1458.6,273.02000000000004,5.34
+26,Foam Insert v06,Packaging,2022-05,1825.1199999999997,273.02000000000004,6.68
+26,Foam Insert v06,Packaging,2022-06,1484.7799999999995,273.02000000000004,5.44
+26,Foam Insert v06,Packaging,2022-07,1391.2799999999997,273.02000000000004,5.1
+26,Foam Insert v06,Packaging,2022-08,1436.1600000000003,273.02000000000004,5.26
+26,Foam Insert v06,Packaging,2022-09,1305.2600000000002,273.02000000000004,4.78
+26,Foam Insert v06,Packaging,2022-10,1305.2599999999995,273.02000000000004,4.78
+26,Foam Insert v06,Packaging,2022-11,1204.2800000000002,273.02000000000004,4.41
+26,Foam Insert v06,Packaging,2022-12,1170.6200000000001,273.02000000000004,4.29
+26,Foam Insert v06,Packaging,2023-01,1114.5200000000004,273.02000000000004,4.08
+26,Foam Insert v06,Packaging,2023-02,1043.46,273.02000000000004,3.82
+26,Foam Insert v06,Packaging,2023-03,1204.2800000000002,273.02000000000004,4.41
+26,Foam Insert v06,Packaging,2023-04,1697.9599999999996,273.02000000000004,6.22
+26,Foam Insert v06,Packaging,2023-05,1772.7599999999995,273.02000000000004,6.49
+26,Foam Insert v06,Packaging,2023-06,1720.4,273.02000000000004,6.3
+26,Foam Insert v06,Packaging,2023-07,1705.4399999999994,273.02000000000004,6.25
+26,Foam Insert v06,Packaging,2023-08,1589.4999999999998,273.02000000000004,5.82
+26,Foam Insert v06,Packaging,2023-09,1611.9399999999998,273.02000000000004,5.9
+26,Foam Insert v06,Packaging,2023-10,1626.8999999999994,273.02000000000004,5.96
+26,Foam Insert v06,Packaging,2023-11,1305.2600000000002,273.02000000000004,4.78
+26,Foam Insert v06,Packaging,2023-12,1256.64,273.02000000000004,4.6
+27,Corrugated Sheet v07,Packaging,2022-01,2446.140000000001,1644.58,1.49
+27,Corrugated Sheet v07,Packaging,2022-02,2301.0299999999997,1644.58,1.4
+27,Corrugated Sheet v07,Packaging,2022-03,3289.16,1644.58,2.0
+27,Corrugated Sheet v07,Packaging,2022-04,4712.620000000001,1644.58,2.87
+27,Corrugated Sheet v07,Packaging,2022-05,7117.3,1644.58,4.33
+27,Corrugated Sheet v07,Packaging,2022-06,4823.18,1644.58,2.93
+27,Corrugated Sheet v07,Packaging,2022-07,5838.949999999999,1644.58,3.55
+27,Corrugated Sheet v07,Packaging,2022-08,5189.41,1644.58,3.16
+27,Corrugated Sheet v07,Packaging,2022-09,4450.040000000001,1644.58,2.71
+27,Corrugated Sheet v07,Packaging,2022-10,4146.0,1644.58,2.52
+27,Corrugated Sheet v07,Packaging,2022-11,3752.13,1644.58,2.28
+27,Corrugated Sheet v07,Packaging,2022-12,4484.59,1644.58,2.73
+27,Corrugated Sheet v07,Packaging,2023-01,2729.45,1644.58,1.66
+27,Corrugated Sheet v07,Packaging,2023-02,2266.48,1644.58,1.38
+27,Corrugated Sheet v07,Packaging,2023-03,3662.3000000000006,1644.58,2.23
+27,Corrugated Sheet v07,Packaging,2023-04,5928.780000000001,1644.58,3.61
+27,Corrugated Sheet v07,Packaging,2023-05,5389.8,1644.58,3.28
+27,Corrugated Sheet v07,Packaging,2023-06,5472.720000000001,1644.58,3.33
+27,Corrugated Sheet v07,Packaging,2023-07,5617.830000000001,1644.58,3.42
+27,Corrugated Sheet v07,Packaging,2023-08,5673.11,1644.58,3.45
+27,Corrugated Sheet v07,Packaging,2023-09,6288.1,1644.58,3.82
+27,Corrugated Sheet v07,Packaging,2023-10,3897.24,1644.58,2.37
+27,Corrugated Sheet v07,Packaging,2023-11,3689.940000000001,1644.58,2.24
+27,Corrugated Sheet v07,Packaging,2023-12,4961.379999999999,1644.58,3.02
+28,Tape Dispenser v08,Packaging,2022-01,961.62,734.14,1.31
+28,Tape Dispenser v08,Packaging,2022-02,728.97,734.14,0.99
+28,Tape Dispenser v08,Packaging,2022-03,946.1099999999999,734.14,1.29
+28,Tape Dispenser v08,Packaging,2022-04,1550.9999999999998,734.14,2.11
+28,Tape Dispenser v08,Packaging,2022-05,1478.62,734.14,2.01
+28,Tape Dispenser v08,Packaging,2022-06,1659.5700000000002,734.14,2.26
+28,Tape Dispenser v08,Packaging,2022-07,1395.8999999999994,734.14,1.9
+28,Tape Dispenser v08,Packaging,2022-08,1085.7,734.14,1.48
+28,Tape Dispenser v08,Packaging,2022-09,1199.44,734.14,1.63
+28,Tape Dispenser v08,Packaging,2022-10,1158.08,734.14,1.58
+28,Tape Dispenser v08,Packaging,2022-11,1302.8400000000001,734.14,1.77
+28,Tape Dispenser v08,Packaging,2022-12,1318.35,734.14,1.8
+28,Tape Dispenser v08,Packaging,2023-01,1127.0599999999997,734.14,1.54
+28,Tape Dispenser v08,Packaging,2023-02,749.65,734.14,1.02
+28,Tape Dispenser v08,Packaging,2023-03,1034.0,734.14,1.41
+28,Tape Dispenser v08,Packaging,2023-04,1587.1899999999996,734.14,2.16
+28,Tape Dispenser v08,Packaging,2023-05,2068.0,734.14,2.82
+28,Tape Dispenser v08,Packaging,2023-06,1628.5500000000002,734.14,2.22
+28,Tape Dispenser v08,Packaging,2023-07,1514.81,734.14,2.06
+28,Tape Dispenser v08,Packaging,2023-08,1525.15,734.14,2.08
+28,Tape Dispenser v08,Packaging,2023-09,1395.8999999999999,734.14,1.9
+28,Tape Dispenser v08,Packaging,2023-10,997.8100000000001,734.14,1.36
+28,Tape Dispenser v08,Packaging,2023-11,1163.25,734.14,1.58
+28,Tape Dispenser v08,Packaging,2023-12,1002.9799999999999,734.14,1.37
+29,Poly Bag v09,Packaging,2022-01,183.92000000000002,237.12,0.78
+29,Poly Bag v09,Packaging,2022-02,215.08,237.12,0.91
+29,Poly Bag v09,Packaging,2022-03,218.12000000000003,237.12,0.92
+29,Poly Bag v09,Packaging,2022-04,271.32000000000005,237.12,1.14
+29,Poly Bag v09,Packaging,2022-05,451.4400000000001,237.12,1.9
+29,Poly Bag v09,Packaging,2022-06,459.04,237.12,1.94
+29,Poly Bag v09,Packaging,2022-07,334.3999999999999,237.12,1.41
+29,Poly Bag v09,Packaging,2022-08,323.0,237.12,1.36
+29,Poly Bag v09,Packaging,2022-09,315.3999999999999,237.12,1.33
+29,Poly Bag v09,Packaging,2022-10,281.2,237.12,1.19
+29,Poly Bag v09,Packaging,2022-11,300.19999999999993,237.12,1.27
+29,Poly Bag v09,Packaging,2022-12,199.12,237.12,0.84
+29,Poly Bag v09,Packaging,2023-01,266.76,237.12,1.13
+29,Poly Bag v09,Packaging,2023-02,275.12,237.12,1.16
+29,Poly Bag v09,Packaging,2023-03,283.4800000000001,237.12,1.2
+29,Poly Bag v09,Packaging,2023-04,301.72,237.12,1.27
+29,Poly Bag v09,Packaging,2023-05,383.03999999999996,237.12,1.62
+29,Poly Bag v09,Packaging,2023-06,418.0,237.12,1.76
+29,Poly Bag v09,Packaging,2023-07,349.6,237.12,1.47
+29,Poly Bag v09,Packaging,2023-08,407.3599999999999,237.12,1.72
+29,Poly Bag v09,Packaging,2023-09,332.88,237.12,1.4
+29,Poly Bag v09,Packaging,2023-10,295.64000000000004,237.12,1.25
+29,Poly Bag v09,Packaging,2023-11,257.64,237.12,1.09
+29,Poly Bag v09,Packaging,2023-12,340.47999999999996,237.12,1.44
+30,Label Stock v10,Packaging,2022-01,2219.42,2103.22,1.06
+30,Label Stock v10,Packaging,2022-02,1835.9599999999996,2103.22,0.87
+30,Label Stock v10,Packaging,2022-03,2382.1,2103.22,1.13
+30,Label Stock v10,Packaging,2022-04,2283.33,2103.22,1.09
+30,Label Stock v10,Packaging,2022-05,3178.0699999999997,2103.22,1.51
+30,Label Stock v10,Packaging,2022-06,3689.3500000000004,2103.22,1.75
+30,Label Stock v10,Packaging,2022-07,2660.9800000000005,2103.22,1.27
+30,Label Stock v10,Packaging,2022-08,2690.03,2103.22,1.28
+30,Label Stock v10,Packaging,2022-09,2434.39,2103.22,1.16
+30,Label Stock v10,Packaging,2022-10,2457.6299999999997,2103.22,1.17
+30,Label Stock v10,Packaging,2022-11,1981.2099999999998,2103.22,0.94
+30,Label Stock v10,Packaging,2022-12,2835.28,2103.22,1.35
+30,Label Stock v10,Packaging,2023-01,2707.4599999999996,2103.22,1.29
+30,Label Stock v10,Packaging,2023-02,1963.7799999999997,2103.22,0.93
+30,Label Stock v10,Packaging,2023-03,2405.3399999999992,2103.22,1.14
+30,Label Stock v10,Packaging,2023-04,2660.9799999999996,2103.22,1.27
+30,Label Stock v10,Packaging,2023-05,2823.6599999999994,2103.22,1.34
+30,Label Stock v10,Packaging,2023-06,3003.77,2103.22,1.43
+30,Label Stock v10,Packaging,2023-07,2695.84,2103.22,1.28
+30,Label Stock v10,Packaging,2023-08,2631.9300000000003,2103.22,1.25
+30,Label Stock v10,Packaging,2023-09,2852.709999999999,2103.22,1.36
+30,Label Stock v10,Packaging,2023-10,2190.37,2103.22,1.04
+30,Label Stock v10,Packaging,2023-11,2504.11,2103.22,1.19
+30,Label Stock v10,Packaging,2023-12,3154.83,2103.22,1.5
+31,Aluminum Sheet v01,Raw Materials,2022-01,3622.68,2887.04,1.25
+31,Aluminum Sheet v01,Raw Materials,2022-02,2234.68,2887.04,0.77
+31,Aluminum Sheet v01,Raw Materials,2022-03,3178.5199999999995,2887.04,1.1
+31,Aluminum Sheet v01,Raw Materials,2022-04,4219.52,2887.04,1.46
+31,Aluminum Sheet v01,Raw Materials,2022-05,5205.000000000001,2887.04,1.8
+31,Aluminum Sheet v01,Raw Materials,2022-06,3997.44,2887.04,1.38
+31,Aluminum Sheet v01,Raw Materials,2022-07,3914.16,2887.04,1.36
+31,Aluminum Sheet v01,Raw Materials,2022-08,5371.56,2887.04,1.86
+31,Aluminum Sheet v01,Raw Materials,2022-09,4538.759999999999,2887.04,1.57
+31,Aluminum Sheet v01,Raw Materials,2022-10,4649.799999999999,2887.04,1.61
+31,Aluminum Sheet v01,Raw Materials,2022-11,3553.2800000000007,2887.04,1.23
+31,Aluminum Sheet v01,Raw Materials,2022-12,4025.2000000000003,2887.04,1.39
+31,Aluminum Sheet v01,Raw Materials,2023-01,3331.2,2887.04,1.15
+31,Aluminum Sheet v01,Raw Materials,2023-02,3358.96,2887.04,1.16
+31,Aluminum Sheet v01,Raw Materials,2023-03,3692.08,2887.04,1.28
+31,Aluminum Sheet v01,Raw Materials,2023-04,3678.1999999999994,2887.04,1.27
+31,Aluminum Sheet v01,Raw Materials,2023-05,5774.079999999999,2887.04,2.0
+31,Aluminum Sheet v01,Raw Materials,2023-06,5274.4000000000015,2887.04,1.83
+31,Aluminum Sheet v01,Raw Materials,2023-07,3692.08,2887.04,1.28
+31,Aluminum Sheet v01,Raw Materials,2023-08,5885.120000000002,2887.04,2.04
+31,Aluminum Sheet v01,Raw Materials,2023-09,4594.280000000001,2887.04,1.59
+31,Aluminum Sheet v01,Raw Materials,2023-10,4150.120000000001,2887.04,1.44
+31,Aluminum Sheet v01,Raw Materials,2023-11,4164.0,2887.04,1.44
+31,Aluminum Sheet v01,Raw Materials,2023-12,3872.5200000000004,2887.04,1.34
+32,Steel Rod v02,Raw Materials,2022-01,10086.96,3520.92,2.86
+32,Steel Rod v02,Raw Materials,2022-02,8025.159999999999,3520.92,2.28
+32,Steel Rod v02,Raw Materials,2022-03,13036.920000000002,3520.92,3.7
+32,Steel Rod v02,Raw Materials,2022-04,17001.92,3520.92,4.83
+32,Steel Rod v02,Raw Materials,2022-05,17921.799999999996,3520.92,5.09
+32,Steel Rod v02,Raw Materials,2022-06,19254.04,3520.92,5.47
+32,Steel Rod v02,Raw Materials,2022-07,17699.760000000002,3520.92,5.03
+32,Steel Rod v02,Raw Materials,2022-08,16589.56,3520.92,4.71
+32,Steel Rod v02,Raw Materials,2022-09,13639.600000000002,3520.92,3.87
+32,Steel Rod v02,Raw Materials,2022-10,14273.999999999998,3520.92,4.05
+32,Steel Rod v02,Raw Materials,2022-11,13829.920000000002,3520.92,3.93
+32,Steel Rod v02,Raw Materials,2022-12,14654.640000000001,3520.92,4.16
+32,Steel Rod v02,Raw Materials,2023-01,12212.199999999999,3520.92,3.47
+32,Steel Rod v02,Raw Materials,2023-02,8723.000000000002,3520.92,2.48
+32,Steel Rod v02,Raw Materials,2023-03,12878.32,3520.92,3.66
+32,Steel Rod v02,Raw Materials,2023-04,18461.039999999997,3520.92,5.24
+32,Steel Rod v02,Raw Materials,2023-05,23187.32,3520.92,6.59
+32,Steel Rod v02,Raw Materials,2023-06,21728.199999999997,3520.92,6.17
+32,Steel Rod v02,Raw Materials,2023-07,20491.119999999995,3520.92,5.82
+32,Steel Rod v02,Raw Materials,2023-08,20110.48,3520.92,5.71
+32,Steel Rod v02,Raw Materials,2023-09,16113.759999999998,3520.92,4.58
+32,Steel Rod v02,Raw Materials,2023-10,14591.199999999999,3520.92,4.14
+32,Steel Rod v02,Raw Materials,2023-11,14749.800000000001,3520.92,4.19
+32,Steel Rod v02,Raw Materials,2023-12,16462.680000000004,3520.92,4.68
+33,Copper Wire v03,Raw Materials,2022-01,6799.500000000002,2719.7999999999997,2.5
+33,Copper Wire v03,Raw Materials,2022-02,6134.66,2719.7999999999997,2.26
+33,Copper Wire v03,Raw Materials,2022-03,8431.38,2719.7999999999997,3.1
+33,Copper Wire v03,Raw Materials,2022-04,9519.3,2719.7999999999997,3.5
+33,Copper Wire v03,Raw Materials,2022-05,12722.62,2719.7999999999997,4.68
+33,Copper Wire v03,Raw Materials,2022-06,9579.74,2719.7999999999997,3.52
+33,Copper Wire v03,Raw Materials,2022-07,9851.720000000001,2719.7999999999997,3.62
+33,Copper Wire v03,Raw Materials,2022-08,10425.9,2719.7999999999997,3.83
+33,Copper Wire v03,Raw Materials,2022-09,7978.08,2719.7999999999997,2.93
+33,Copper Wire v03,Raw Materials,2022-10,9247.320000000002,2719.7999999999997,3.4
+33,Copper Wire v03,Raw Materials,2022-11,8794.020000000002,2719.7999999999997,3.23
+33,Copper Wire v03,Raw Materials,2022-12,8552.259999999998,2719.7999999999997,3.14
+33,Copper Wire v03,Raw Materials,2023-01,8250.06,2719.7999999999997,3.03
+33,Copper Wire v03,Raw Materials,2023-02,7917.640000000001,2719.7999999999997,2.91
+33,Copper Wire v03,Raw Materials,2023-03,9247.320000000002,2719.7999999999997,3.4
+33,Copper Wire v03,Raw Materials,2023-04,10848.979999999998,2719.7999999999997,3.99
+33,Copper Wire v03,Raw Materials,2023-05,13750.1,2719.7999999999997,5.06
+33,Copper Wire v03,Raw Materials,2023-06,11000.079999999998,2719.7999999999997,4.04
+33,Copper Wire v03,Raw Materials,2023-07,11181.4,2719.7999999999997,4.11
+33,Copper Wire v03,Raw Materials,2023-08,11302.280000000002,2719.7999999999997,4.16
+33,Copper Wire v03,Raw Materials,2023-09,9881.94,2719.7999999999997,3.63
+33,Copper Wire v03,Raw Materials,2023-10,10184.140000000003,2719.7999999999997,3.74
+33,Copper Wire v03,Raw Materials,2023-11,9126.439999999999,2719.7999999999997,3.36
+33,Copper Wire v03,Raw Materials,2023-12,10395.680000000002,2719.7999999999997,3.82
+34,PVC Pellets v04,Raw Materials,2022-01,19873.74,6393.49,3.11
+34,PVC Pellets v04,Raw Materials,2022-02,14712.730000000001,6393.49,2.3
+34,PVC Pellets v04,Raw Materials,2022-03,20952.16,6393.49,3.28
+34,PVC Pellets v04,Raw Materials,2022-04,25496.929999999997,6393.49,3.99
+34,PVC Pellets v04,Raw Materials,2022-05,28809.219999999998,6393.49,4.51
+34,PVC Pellets v04,Raw Materials,2022-06,26652.379999999997,6393.49,4.17
+34,PVC Pellets v04,Raw Materials,2022-07,22492.760000000002,6393.49,3.52
+34,PVC Pellets v04,Raw Materials,2022-08,31197.149999999994,6393.49,4.88
+34,PVC Pellets v04,Raw Materials,2022-09,22877.91,6393.49,3.58
+34,PVC Pellets v04,Raw Materials,2022-10,28115.949999999997,6393.49,4.4
+34,PVC Pellets v04,Raw Materials,2022-11,25650.99,6393.49,4.01
+34,PVC Pellets v04,Raw Materials,2022-12,22184.64,6393.49,3.47
+34,PVC Pellets v04,Raw Materials,2023-01,21645.43,6393.49,3.39
+34,PVC Pellets v04,Raw Materials,2023-02,20721.07,6393.49,3.24
+34,PVC Pellets v04,Raw Materials,2023-03,28809.22000000001,6393.49,4.51
+34,PVC Pellets v04,Raw Materials,2023-04,33585.08,6393.49,5.25
+34,PVC Pellets v04,Raw Materials,2023-05,31043.089999999997,6393.49,4.86
+34,PVC Pellets v04,Raw Materials,2023-06,22646.820000000003,6393.49,3.54
+34,PVC Pellets v04,Raw Materials,2023-07,34355.38,6393.49,5.37
+34,PVC Pellets v04,Raw Materials,2023-08,32121.509999999995,6393.49,5.02
+34,PVC Pellets v04,Raw Materials,2023-09,29502.489999999998,6393.49,4.61
+34,PVC Pellets v04,Raw Materials,2023-10,21491.37,6393.49,3.36
+34,PVC Pellets v04,Raw Materials,2023-11,34432.41,6393.49,5.39
+34,PVC Pellets v04,Raw Materials,2023-12,29425.46,6393.49,4.6
+35,Carbon Fiber Spool v05,Raw Materials,2022-01,4024.98,409.32,9.83
+35,Carbon Fiber Spool v05,Raw Materials,2022-02,2797.02,409.32,6.83
+35,Carbon Fiber Spool v05,Raw Materials,2022-03,3342.78,409.32,8.17
+35,Carbon Fiber Spool v05,Raw Materials,2022-04,4093.2000000000003,409.32,10.0
+35,Carbon Fiber Spool v05,Raw Materials,2022-05,6139.8,409.32,15.0
+35,Carbon Fiber Spool v05,Raw Materials,2022-06,4206.900000000001,409.32,10.28
+35,Carbon Fiber Spool v05,Raw Materials,2022-07,4775.4,409.32,11.67
+35,Carbon Fiber Spool v05,Raw Materials,2022-08,5594.04,409.32,13.67
+35,Carbon Fiber Spool v05,Raw Materials,2022-09,5002.799999999999,409.32,12.22
+35,Carbon Fiber Spool v05,Raw Materials,2022-10,6185.280000000002,409.32,15.11
+35,Carbon Fiber Spool v05,Raw Materials,2022-11,4570.74,409.32,11.17
+35,Carbon Fiber Spool v05,Raw Materials,2022-12,3865.7999999999993,409.32,9.44
+35,Carbon Fiber Spool v05,Raw Materials,2023-01,4411.5599999999995,409.32,10.78
+35,Carbon Fiber Spool v05,Raw Materials,2023-02,3615.66,409.32,8.83
+35,Carbon Fiber Spool v05,Raw Materials,2023-03,4980.0599999999995,409.32,12.17
+35,Carbon Fiber Spool v05,Raw Materials,2023-04,6298.98,409.32,15.39
+35,Carbon Fiber Spool v05,Raw Materials,2023-05,7390.5,409.32,18.06
+35,Carbon Fiber Spool v05,Raw Materials,2023-06,6230.76,409.32,15.22
+35,Carbon Fiber Spool v05,Raw Materials,2023-07,5252.940000000001,409.32,12.83
+35,Carbon Fiber Spool v05,Raw Materials,2023-08,5025.540000000001,409.32,12.28
+35,Carbon Fiber Spool v05,Raw Materials,2023-09,5343.899999999999,409.32,13.06
+35,Carbon Fiber Spool v05,Raw Materials,2023-10,5707.739999999999,409.32,13.94
+35,Carbon Fiber Spool v05,Raw Materials,2023-11,4434.300000000001,409.32,10.83
+35,Carbon Fiber Spool v05,Raw Materials,2023-12,4161.419999999999,409.32,10.17
+36,Resin Block v06,Raw Materials,2022-01,30350.080000000005,10425.6,2.91
+36,Resin Block v06,Raw Materials,2022-02,27685.760000000002,10425.6,2.66
+36,Resin Block v06,Raw Materials,2022-03,29944.640000000003,10425.6,2.87
+36,Resin Block v06,Raw Materials,2022-04,34694.08,10425.6,3.33
+36,Resin Block v06,Raw Materials,2022-05,34520.32,10425.6,3.31
+36,Resin Block v06,Raw Materials,2022-06,34809.920000000006,10425.6,3.34
+36,Resin Block v06,Raw Materials,2022-07,39559.36,10425.6,3.79
+36,Resin Block v06,Raw Materials,2022-08,33304.0,10425.6,3.19
+36,Resin Block v06,Raw Materials,2022-09,33188.16,10425.6,3.18
+36,Resin Block v06,Raw Materials,2022-10,40544.0,10425.6,3.89
+36,Resin Block v06,Raw Materials,2022-11,40312.32000000001,10425.6,3.87
+36,Resin Block v06,Raw Materials,2022-12,34056.96,10425.6,3.27
+36,Resin Block v06,Raw Materials,2023-01,32203.520000000004,10425.6,3.09
+36,Resin Block v06,Raw Materials,2023-02,32956.479999999996,10425.6,3.16
+36,Resin Block v06,Raw Materials,2023-03,38169.28,10425.6,3.66
+36,Resin Block v06,Raw Materials,2023-04,43671.679999999986,10425.6,4.19
+36,Resin Block v06,Raw Materials,2023-05,42107.840000000004,10425.6,4.04
+36,Resin Block v06,Raw Materials,2023-06,37358.399999999994,10425.6,3.58
+36,Resin Block v06,Raw Materials,2023-07,43034.56,10425.6,4.13
+36,Resin Block v06,Raw Materials,2023-08,45930.56000000001,10425.6,4.41
+36,Resin Block v06,Raw Materials,2023-09,43324.159999999996,10425.6,4.16
+36,Resin Block v06,Raw Materials,2023-10,40080.64,10425.6,3.84
+36,Resin Block v06,Raw Materials,2023-11,37995.520000000004,10425.6,3.64
+36,Resin Block v06,Raw Materials,2023-12,42513.280000000006,10425.6,4.08
+37,Rubber Compound v07,Raw Materials,2022-01,961.5200000000001,647.36,1.49
+37,Rubber Compound v07,Raw Materials,2022-02,1047.2000000000003,647.36,1.62
+37,Rubber Compound v07,Raw Materials,2022-03,1142.4,647.36,1.76
+37,Rubber Compound v07,Raw Materials,2022-04,1218.5599999999997,647.36,1.88
+37,Rubber Compound v07,Raw Materials,2022-05,1408.96,647.36,2.18
+37,Rubber Compound v07,Raw Materials,2022-06,1408.9599999999996,647.36,2.18
+37,Rubber Compound v07,Raw Materials,2022-07,1485.1199999999992,647.36,2.29
+37,Rubber Compound v07,Raw Materials,2022-08,1466.0799999999995,647.36,2.26
+37,Rubber Compound v07,Raw Materials,2022-09,1304.2399999999998,647.36,2.01
+37,Rubber Compound v07,Raw Materials,2022-10,1256.6399999999996,647.36,1.94
+37,Rubber Compound v07,Raw Materials,2022-11,1266.1600000000003,647.36,1.96
+37,Rubber Compound v07,Raw Materials,2022-12,1275.6799999999998,647.36,1.97
+37,Rubber Compound v07,Raw Materials,2023-01,1094.8000000000002,647.36,1.69
+37,Rubber Compound v07,Raw Materials,2023-02,1113.84,647.36,1.72
+37,Rubber Compound v07,Raw Materials,2023-03,1285.1999999999998,647.36,1.99
+37,Rubber Compound v07,Raw Materials,2023-04,1085.2799999999997,647.36,1.68
+37,Rubber Compound v07,Raw Materials,2023-05,1646.96,647.36,2.54
+37,Rubber Compound v07,Raw Materials,2023-06,1447.0399999999997,647.36,2.24
+37,Rubber Compound v07,Raw Materials,2023-07,1313.7599999999995,647.36,2.03
+37,Rubber Compound v07,Raw Materials,2023-08,1504.1599999999994,647.36,2.32
+37,Rubber Compound v07,Raw Materials,2023-09,1370.8799999999999,647.36,2.12
+37,Rubber Compound v07,Raw Materials,2023-10,1132.8799999999999,647.36,1.75
+37,Rubber Compound v07,Raw Materials,2023-11,1218.5599999999997,647.36,1.88
+37,Rubber Compound v07,Raw Materials,2023-12,1608.8799999999992,647.36,2.49
+38,Zinc Ingot v08,Raw Materials,2022-01,8161.02,3467.1000000000004,2.35
+38,Zinc Ingot v08,Raw Materials,2022-02,5173.980000000001,3467.1000000000004,1.49
+38,Zinc Ingot v08,Raw Materials,2022-03,8285.480000000001,3467.1000000000004,2.39
+38,Zinc Ingot v08,Raw Materials,2022-04,13210.540000000003,3467.1000000000004,3.81
+38,Zinc Ingot v08,Raw Materials,2022-05,15806.42,3467.1000000000004,4.56
+38,Zinc Ingot v08,Raw Materials,2022-06,12641.580000000002,3467.1000000000004,3.65
+38,Zinc Ingot v08,Raw Materials,2022-07,13975.080000000004,3467.1000000000004,4.03
+38,Zinc Ingot v08,Raw Materials,2022-08,13299.440000000002,3467.1000000000004,3.84
+38,Zinc Ingot v08,Raw Materials,2022-09,10845.8,3467.1000000000004,3.13
+38,Zinc Ingot v08,Raw Materials,2022-10,11343.640000000001,3467.1000000000004,3.27
+38,Zinc Ingot v08,Raw Materials,2022-11,9743.44,3467.1000000000004,2.81
+38,Zinc Ingot v08,Raw Materials,2022-12,9263.38,3467.1000000000004,2.67
+38,Zinc Ingot v08,Raw Materials,2023-01,9050.020000000002,3467.1000000000004,2.61
+38,Zinc Ingot v08,Raw Materials,2023-02,6898.639999999999,3467.1000000000004,1.99
+38,Zinc Ingot v08,Raw Materials,2023-03,8498.84,3467.1000000000004,2.45
+38,Zinc Ingot v08,Raw Materials,2023-04,14739.619999999999,3467.1000000000004,4.25
+38,Zinc Ingot v08,Raw Materials,2023-05,19166.840000000004,3467.1000000000004,5.53
+38,Zinc Ingot v08,Raw Materials,2023-06,17033.239999999998,3467.1000000000004,4.91
+38,Zinc Ingot v08,Raw Materials,2023-07,14615.160000000003,3467.1000000000004,4.22
+38,Zinc Ingot v08,Raw Materials,2023-08,12872.72,3467.1000000000004,3.71
+38,Zinc Ingot v08,Raw Materials,2023-09,12481.560000000003,3467.1000000000004,3.6
+38,Zinc Ingot v08,Raw Materials,2023-10,12321.539999999999,3467.1000000000004,3.55
+38,Zinc Ingot v08,Raw Materials,2023-11,11094.719999999998,3467.1000000000004,3.2
+38,Zinc Ingot v08,Raw Materials,2023-12,9761.220000000001,3467.1000000000004,2.82
+39,Titanium Powder v09,Raw Materials,2022-01,710.55,236.85,3.0
+39,Titanium Powder v09,Raw Materials,2022-02,363.16999999999996,236.85,1.53
+39,Titanium Powder v09,Raw Materials,2022-03,536.8599999999999,236.85,2.27
+39,Titanium Powder v09,Raw Materials,2022-04,647.3900000000001,236.85,2.73
+39,Titanium Powder v09,Raw Materials,2022-05,678.97,236.85,2.87
+39,Titanium Powder v09,Raw Materials,2022-06,647.3900000000001,236.85,2.73
+39,Titanium Powder v09,Raw Materials,2022-07,678.9700000000001,236.85,2.87
+39,Titanium Powder v09,Raw Materials,2022-08,789.5000000000001,236.85,3.33
+39,Titanium Powder v09,Raw Materials,2022-09,773.71,236.85,3.27
+39,Titanium Powder v09,Raw Materials,2022-10,742.1300000000001,236.85,3.13
+39,Titanium Powder v09,Raw Materials,2022-11,568.4399999999999,236.85,2.4
+39,Titanium Powder v09,Raw Materials,2022-12,505.2799999999998,236.85,2.13
+39,Titanium Powder v09,Raw Materials,2023-01,584.2299999999998,236.85,2.47
+39,Titanium Powder v09,Raw Materials,2023-02,457.90999999999985,236.85,1.93
+39,Titanium Powder v09,Raw Materials,2023-03,663.18,236.85,2.8
+39,Titanium Powder v09,Raw Materials,2023-04,584.2299999999999,236.85,2.47
+39,Titanium Powder v09,Raw Materials,2023-05,742.1300000000001,236.85,3.13
+39,Titanium Powder v09,Raw Materials,2023-06,852.6600000000001,236.85,3.6
+39,Titanium Powder v09,Raw Materials,2023-07,742.1300000000001,236.85,3.13
+39,Titanium Powder v09,Raw Materials,2023-08,631.6,236.85,2.67
+39,Titanium Powder v09,Raw Materials,2023-09,742.1300000000001,236.85,3.13
+39,Titanium Powder v09,Raw Materials,2023-10,710.5500000000001,236.85,3.0
+39,Titanium Powder v09,Raw Materials,2023-11,647.39,236.85,2.73
+39,Titanium Powder v09,Raw Materials,2023-12,694.76,236.85,2.93
+40,Silicone Sheet v10,Raw Materials,2022-01,7904.319999999999,1976.08,4.0
+40,Silicone Sheet v10,Raw Materials,2022-02,7729.959999999999,1976.08,3.91
+40,Silicone Sheet v10,Raw Materials,2022-03,7904.319999999999,1976.08,4.0
+40,Silicone Sheet v10,Raw Materials,2022-04,9996.639999999998,1976.08,5.06
+40,Silicone Sheet v10,Raw Materials,2022-05,9182.96,1976.08,4.65
+40,Silicone Sheet v10,Raw Materials,2022-06,7439.359999999998,1976.08,3.76
+40,Silicone Sheet v10,Raw Materials,2022-07,12786.4,1976.08,6.47
+40,Silicone Sheet v10,Raw Materials,2022-08,11798.36,1976.08,5.97
+40,Silicone Sheet v10,Raw Materials,2022-09,10229.119999999999,1976.08,5.18
+40,Silicone Sheet v10,Raw Materials,2022-10,10112.88,1976.08,5.12
+40,Silicone Sheet v10,Raw Materials,2022-11,10984.679999999998,1976.08,5.56
+40,Silicone Sheet v10,Raw Materials,2022-12,5521.4,1976.08,2.79
+40,Silicone Sheet v10,Raw Materials,2023-01,9531.68,1976.08,4.82
+40,Silicone Sheet v10,Raw Materials,2023-02,5753.879999999999,1976.08,2.91
+40,Silicone Sheet v10,Raw Materials,2023-03,8253.039999999999,1976.08,4.18
+40,Silicone Sheet v10,Raw Materials,2023-04,9996.639999999998,1976.08,5.06
+40,Silicone Sheet v10,Raw Materials,2023-05,14355.639999999996,1976.08,7.26
+40,Silicone Sheet v10,Raw Materials,2023-06,13018.879999999997,1976.08,6.59
+40,Silicone Sheet v10,Raw Materials,2023-07,9066.72,1976.08,4.59
+40,Silicone Sheet v10,Raw Materials,2023-08,10287.24,1976.08,5.21
+40,Silicone Sheet v10,Raw Materials,2023-09,6683.8,1976.08,3.38
+40,Silicone Sheet v10,Raw Materials,2023-10,9182.959999999997,1976.08,4.65
+40,Silicone Sheet v10,Raw Materials,2023-11,10054.759999999997,1976.08,5.09
+40,Silicone Sheet v10,Raw Materials,2023-12,7904.319999999998,1976.08,4.0
+41,Thermal Paper Roll v01,Office Supplies,2022-01,1416.0000000000002,739.1999999999999,1.92
+41,Thermal Paper Roll v01,Office Supplies,2022-02,777.5999999999998,739.1999999999999,1.05
+41,Thermal Paper Roll v01,Office Supplies,2022-03,1176.0,739.1999999999999,1.59
+41,Thermal Paper Roll v01,Office Supplies,2022-04,1598.3999999999999,739.1999999999999,2.16
+41,Thermal Paper Roll v01,Office Supplies,2022-05,1910.4000000000003,739.1999999999999,2.58
+41,Thermal Paper Roll v01,Office Supplies,2022-06,2102.3999999999996,739.1999999999999,2.84
+41,Thermal Paper Roll v01,Office Supplies,2022-07,1795.1999999999998,739.1999999999999,2.43
+41,Thermal Paper Roll v01,Office Supplies,2022-08,1632.0,739.1999999999999,2.21
+41,Thermal Paper Roll v01,Office Supplies,2022-09,1392.0,739.1999999999999,1.88
+41,Thermal Paper Roll v01,Office Supplies,2022-10,1176.0,739.1999999999999,1.59
+41,Thermal Paper Roll v01,Office Supplies,2022-11,1291.2,739.1999999999999,1.75
+41,Thermal Paper Roll v01,Office Supplies,2022-12,1329.6000000000001,739.1999999999999,1.8
+41,Thermal Paper Roll v01,Office Supplies,2023-01,1305.6,739.1999999999999,1.77
+41,Thermal Paper Roll v01,Office Supplies,2023-02,945.6,739.1999999999999,1.28
+41,Thermal Paper Roll v01,Office Supplies,2023-03,1363.2,739.1999999999999,1.84
+41,Thermal Paper Roll v01,Office Supplies,2023-04,1852.8,739.1999999999999,2.51
+41,Thermal Paper Roll v01,Office Supplies,2023-05,2467.2000000000003,739.1999999999999,3.34
+41,Thermal Paper Roll v01,Office Supplies,2023-06,2404.8,739.1999999999999,3.25
+41,Thermal Paper Roll v01,Office Supplies,2023-07,1492.8,739.1999999999999,2.02
+41,Thermal Paper Roll v01,Office Supplies,2023-08,2083.2,739.1999999999999,2.82
+41,Thermal Paper Roll v01,Office Supplies,2023-09,1267.2,739.1999999999999,1.71
+41,Thermal Paper Roll v01,Office Supplies,2023-10,1612.8000000000004,739.1999999999999,2.18
+41,Thermal Paper Roll v01,Office Supplies,2023-11,1161.6000000000001,739.1999999999999,1.57
+41,Thermal Paper Roll v01,Office Supplies,2023-12,1612.8000000000002,739.1999999999999,2.18
+42,Printer Cartridge v02,Office Supplies,2022-01,504.0,182.0,2.77
+42,Printer Cartridge v02,Office Supplies,2022-02,402.5,182.0,2.21
+42,Printer Cartridge v02,Office Supplies,2022-03,493.5,182.0,2.71
+42,Printer Cartridge v02,Office Supplies,2022-04,577.5,182.0,3.17
+42,Printer Cartridge v02,Office Supplies,2022-05,847.0,182.0,4.65
+42,Printer Cartridge v02,Office Supplies,2022-06,728.0,182.0,4.0
+42,Printer Cartridge v02,Office Supplies,2022-07,644.0,182.0,3.54
+42,Printer Cartridge v02,Office Supplies,2022-08,710.5,182.0,3.9
+42,Printer Cartridge v02,Office Supplies,2022-09,539.0,182.0,2.96
+42,Printer Cartridge v02,Office Supplies,2022-10,668.5,182.0,3.67
+42,Printer Cartridge v02,Office Supplies,2022-11,567.0,182.0,3.12
+42,Printer Cartridge v02,Office Supplies,2022-12,584.5,182.0,3.21
+42,Printer Cartridge v02,Office Supplies,2023-01,553.0,182.0,3.04
+42,Printer Cartridge v02,Office Supplies,2023-02,420.0,182.0,2.31
+42,Printer Cartridge v02,Office Supplies,2023-03,612.5,182.0,3.37
+42,Printer Cartridge v02,Office Supplies,2023-04,724.5,182.0,3.98
+42,Printer Cartridge v02,Office Supplies,2023-05,945.0,182.0,5.19
+42,Printer Cartridge v02,Office Supplies,2023-06,812.0,182.0,4.46
+42,Printer Cartridge v02,Office Supplies,2023-07,780.5,182.0,4.29
+42,Printer Cartridge v02,Office Supplies,2023-08,717.5,182.0,3.94
+42,Printer Cartridge v02,Office Supplies,2023-09,714.0,182.0,3.92
+42,Printer Cartridge v02,Office Supplies,2023-10,577.5,182.0,3.17
+42,Printer Cartridge v02,Office Supplies,2023-11,542.5,182.0,2.98
+42,Printer Cartridge v02,Office Supplies,2023-12,766.5,182.0,4.21
+43,Staple Pack v03,Office Supplies,2022-01,1116.1200000000001,783.8399999999999,1.42
+43,Staple Pack v03,Office Supplies,2022-02,928.6800000000001,783.8399999999999,1.18
+43,Staple Pack v03,Office Supplies,2022-03,1150.2,783.8399999999999,1.47
+43,Staple Pack v03,Office Supplies,2022-04,1218.36,783.8399999999999,1.55
+43,Staple Pack v03,Office Supplies,2022-05,1621.6399999999999,783.8399999999999,2.07
+43,Staple Pack v03,Office Supplies,2022-06,1573.3599999999997,783.8399999999999,2.01
+43,Staple Pack v03,Office Supplies,2022-07,1269.48,783.8399999999999,1.62
+43,Staple Pack v03,Office Supplies,2022-08,1360.3600000000001,783.8399999999999,1.74
+43,Staple Pack v03,Office Supplies,2022-09,1226.8799999999999,783.8399999999999,1.57
+43,Staple Pack v03,Office Supplies,2022-10,1147.3599999999997,783.8399999999999,1.46
+43,Staple Pack v03,Office Supplies,2022-11,1150.1999999999998,783.8399999999999,1.47
+43,Staple Pack v03,Office Supplies,2022-12,1295.04,783.8399999999999,1.65
+43,Staple Pack v03,Office Supplies,2023-01,1118.96,783.8399999999999,1.43
+43,Staple Pack v03,Office Supplies,2023-02,1047.96,783.8399999999999,1.34
+43,Staple Pack v03,Office Supplies,2023-03,1476.8,783.8399999999999,1.88
+43,Staple Pack v03,Office Supplies,2023-04,1610.28,783.8399999999999,2.05
+43,Staple Pack v03,Office Supplies,2023-05,1823.2799999999997,783.8399999999999,2.33
+43,Staple Pack v03,Office Supplies,2023-06,1428.52,783.8399999999999,1.82
+43,Staple Pack v03,Office Supplies,2023-07,1442.72,783.8399999999999,1.84
+43,Staple Pack v03,Office Supplies,2023-08,1354.6799999999998,783.8399999999999,1.73
+43,Staple Pack v03,Office Supplies,2023-09,1652.88,783.8399999999999,2.11
+43,Staple Pack v03,Office Supplies,2023-10,1380.2399999999998,783.8399999999999,1.76
+43,Staple Pack v03,Office Supplies,2023-11,1363.1999999999998,783.8399999999999,1.74
+43,Staple Pack v03,Office Supplies,2023-12,1425.6799999999996,783.8399999999999,1.82
+44,File Folder v04,Office Supplies,2022-01,559.12,380.78000000000003,1.47
+44,File Folder v04,Office Supplies,2022-02,332.58000000000004,380.78000000000003,0.87
+44,File Folder v04,Office Supplies,2022-03,631.4200000000001,380.78000000000003,1.66
+44,File Folder v04,Office Supplies,2022-04,843.5,380.78000000000003,2.22
+44,File Folder v04,Office Supplies,2022-05,925.4400000000002,380.78000000000003,2.43
+44,File Folder v04,Office Supplies,2022-06,896.5200000000001,380.78000000000003,2.35
+44,File Folder v04,Office Supplies,2022-07,833.86,380.78000000000003,2.19
+44,File Folder v04,Office Supplies,2022-08,1036.3000000000002,380.78000000000003,2.72
+44,File Folder v04,Office Supplies,2022-09,727.82,380.78000000000003,1.91
+44,File Folder v04,Office Supplies,2022-10,689.26,380.78000000000003,1.81
+44,File Folder v04,Office Supplies,2022-11,539.84,380.78000000000003,1.42
+44,File Folder v04,Office Supplies,2022-12,795.3000000000002,380.78000000000003,2.09
+44,File Folder v04,Office Supplies,2023-01,694.0799999999998,380.78000000000003,1.82
+44,File Folder v04,Office Supplies,2023-02,809.7599999999999,380.78000000000003,2.13
+44,File Folder v04,Office Supplies,2023-03,829.04,380.78000000000003,2.18
+44,File Folder v04,Office Supplies,2023-04,563.94,380.78000000000003,1.48
+44,File Folder v04,Office Supplies,2023-05,795.3000000000001,380.78000000000003,2.09
+44,File Folder v04,Office Supplies,2023-06,1219.4600000000003,380.78000000000003,3.2
+44,File Folder v04,Office Supplies,2023-07,988.1,380.78000000000003,2.59
+44,File Folder v04,Office Supplies,2023-08,1041.1200000000001,380.78000000000003,2.73
+44,File Folder v04,Office Supplies,2023-09,968.8200000000002,380.78000000000003,2.54
+44,File Folder v04,Office Supplies,2023-10,930.26,380.78000000000003,2.44
+44,File Folder v04,Office Supplies,2023-11,1074.8600000000001,380.78000000000003,2.82
+44,File Folder v04,Office Supplies,2023-12,954.3600000000002,380.78000000000003,2.51
+45,Desk Organizer v05,Office Supplies,2022-01,1531.1699999999998,720.27,2.13
+45,Desk Organizer v05,Office Supplies,2022-02,1278.36,720.27,1.77
+45,Desk Organizer v05,Office Supplies,2022-03,1512.0899999999997,720.27,2.1
+45,Desk Organizer v05,Office Supplies,2022-04,2528.1,720.27,3.51
+45,Desk Organizer v05,Office Supplies,2022-05,2776.14,720.27,3.85
+45,Desk Organizer v05,Office Supplies,2022-06,2413.62,720.27,3.35
+45,Desk Organizer v05,Office Supplies,2022-07,2136.9600000000005,720.27,2.97
+45,Desk Organizer v05,Office Supplies,2022-08,2461.32,720.27,3.42
+45,Desk Organizer v05,Office Supplies,2022-09,2089.26,720.27,2.9
+45,Desk Organizer v05,Office Supplies,2022-10,2122.6500000000005,720.27,2.95
+45,Desk Organizer v05,Office Supplies,2022-11,1970.0099999999998,720.27,2.74
+45,Desk Organizer v05,Office Supplies,2022-12,1569.33,720.27,2.18
+45,Desk Organizer v05,Office Supplies,2023-01,1850.7599999999995,720.27,2.57
+45,Desk Organizer v05,Office Supplies,2023-02,1264.0500000000002,720.27,1.75
+45,Desk Organizer v05,Office Supplies,2023-03,1636.11,720.27,2.27
+45,Desk Organizer v05,Office Supplies,2023-04,2513.789999999999,720.27,3.49
+45,Desk Organizer v05,Office Supplies,2023-05,2971.7099999999996,720.27,4.13
+45,Desk Organizer v05,Office Supplies,2023-06,2466.0899999999997,720.27,3.42
+45,Desk Organizer v05,Office Supplies,2023-07,3052.7999999999997,720.27,4.24
+45,Desk Organizer v05,Office Supplies,2023-08,2776.1400000000003,720.27,3.85
+45,Desk Organizer v05,Office Supplies,2023-09,2633.0400000000004,720.27,3.66
+45,Desk Organizer v05,Office Supplies,2023-10,2051.1000000000004,720.27,2.85
+45,Desk Organizer v05,Office Supplies,2023-11,1683.8100000000002,720.27,2.34
+45,Desk Organizer v05,Office Supplies,2023-12,2012.9399999999994,720.27,2.79
+46,Whiteboard Marker v06,Office Supplies,2022-01,117.6,12.48,9.42
+46,Whiteboard Marker v06,Office Supplies,2022-02,90.24,12.48,7.23
+46,Whiteboard Marker v06,Office Supplies,2022-03,110.87999999999998,12.48,8.88
+46,Whiteboard Marker v06,Office Supplies,2022-04,169.44,12.48,13.58
+46,Whiteboard Marker v06,Office Supplies,2022-05,216.96000000000004,12.48,17.38
+46,Whiteboard Marker v06,Office Supplies,2022-06,167.51999999999998,12.48,13.42
+46,Whiteboard Marker v06,Office Supplies,2022-07,169.92000000000002,12.48,13.62
+46,Whiteboard Marker v06,Office Supplies,2022-08,170.88,12.48,13.69
+46,Whiteboard Marker v06,Office Supplies,2022-09,154.07999999999998,12.48,12.35
+46,Whiteboard Marker v06,Office Supplies,2022-10,143.04,12.48,11.46
+46,Whiteboard Marker v06,Office Supplies,2022-11,147.84,12.48,11.85
+46,Whiteboard Marker v06,Office Supplies,2022-12,180.95999999999995,12.48,14.5
+46,Whiteboard Marker v06,Office Supplies,2023-01,131.52,12.48,10.54
+46,Whiteboard Marker v06,Office Supplies,2023-02,89.75999999999999,12.48,7.19
+46,Whiteboard Marker v06,Office Supplies,2023-03,110.4,12.48,8.85
+46,Whiteboard Marker v06,Office Supplies,2023-04,194.88,12.48,15.62
+46,Whiteboard Marker v06,Office Supplies,2023-05,228.0,12.48,18.27
+46,Whiteboard Marker v06,Office Supplies,2023-06,180.96,12.48,14.5
+46,Whiteboard Marker v06,Office Supplies,2023-07,228.00000000000006,12.48,18.27
+46,Whiteboard Marker v06,Office Supplies,2023-08,214.08,12.48,17.15
+46,Whiteboard Marker v06,Office Supplies,2023-09,196.79999999999993,12.48,15.77
+46,Whiteboard Marker v06,Office Supplies,2023-10,160.80000000000004,12.48,12.88
+46,Whiteboard Marker v06,Office Supplies,2023-11,154.08,12.48,12.35
+46,Whiteboard Marker v06,Office Supplies,2023-12,162.71999999999997,12.48,13.04
+47,Binding Comb v07,Office Supplies,2022-01,1031.7899999999997,468.42,2.2
+47,Binding Comb v07,Office Supplies,2022-02,765.9300000000001,468.42,1.64
+47,Binding Comb v07,Office Supplies,2022-03,1139.3999999999999,468.42,2.43
+47,Binding Comb v07,Office Supplies,2022-04,1702.7700000000002,468.42,3.64
+47,Binding Comb v07,Office Supplies,2022-05,1424.2500000000002,468.42,3.04
+47,Binding Comb v07,Office Supplies,2022-06,1253.3400000000001,468.42,2.68
+47,Binding Comb v07,Office Supplies,2022-07,1145.73,468.42,2.45
+47,Binding Comb v07,Office Supplies,2022-08,1335.6299999999999,468.42,2.85
+47,Binding Comb v07,Office Supplies,2022-09,1145.73,468.42,2.45
+47,Binding Comb v07,Office Supplies,2022-10,1240.6799999999998,468.42,2.65
+47,Binding Comb v07,Office Supplies,2022-11,1278.6599999999999,468.42,2.73
+47,Binding Comb v07,Office Supplies,2022-12,1297.6499999999999,468.42,2.77
+47,Binding Comb v07,Office Supplies,2023-01,993.81,468.42,2.12
+47,Binding Comb v07,Office Supplies,2023-02,816.5699999999998,468.42,1.74
+47,Binding Comb v07,Office Supplies,2023-03,1215.3600000000001,468.42,2.59
+47,Binding Comb v07,Office Supplies,2023-04,1272.33,468.42,2.72
+47,Binding Comb v07,Office Supplies,2023-05,1696.44,468.42,3.62
+47,Binding Comb v07,Office Supplies,2023-06,1398.9299999999998,468.42,2.99
+47,Binding Comb v07,Office Supplies,2023-07,1424.25,468.42,3.04
+47,Binding Comb v07,Office Supplies,2023-08,1500.21,468.42,3.2
+47,Binding Comb v07,Office Supplies,2023-09,1550.8499999999997,468.42,3.31
+47,Binding Comb v07,Office Supplies,2023-10,1291.32,468.42,2.76
+47,Binding Comb v07,Office Supplies,2023-11,1240.68,468.42,2.65
+47,Binding Comb v07,Office Supplies,2023-12,1734.4200000000003,468.42,3.7
+48,Sticky Note Pad v08,Office Supplies,2022-01,334.56,195.84,1.71
+48,Sticky Note Pad v08,Office Supplies,2022-02,261.12000000000006,195.84,1.33
+48,Sticky Note Pad v08,Office Supplies,2022-03,310.08,195.84,1.58
+48,Sticky Note Pad v08,Office Supplies,2022-04,489.5999999999999,195.84,2.5
+48,Sticky Note Pad v08,Office Supplies,2022-05,408.0,195.84,2.08
+48,Sticky Note Pad v08,Office Supplies,2022-06,567.1199999999999,195.84,2.9
+48,Sticky Note Pad v08,Office Supplies,2022-07,497.76,195.84,2.54
+48,Sticky Note Pad v08,Office Supplies,2022-08,575.28,195.84,2.94
+48,Sticky Note Pad v08,Office Supplies,2022-09,420.23999999999995,195.84,2.15
+48,Sticky Note Pad v08,Office Supplies,2022-10,452.88,195.84,2.31
+48,Sticky Note Pad v08,Office Supplies,2022-11,350.88000000000005,195.84,1.79
+48,Sticky Note Pad v08,Office Supplies,2022-12,367.20000000000005,195.84,1.88
+48,Sticky Note Pad v08,Office Supplies,2023-01,375.35999999999996,195.84,1.92
+48,Sticky Note Pad v08,Office Supplies,2023-02,208.07999999999998,195.84,1.06
+48,Sticky Note Pad v08,Office Supplies,2023-03,314.16,195.84,1.6
+48,Sticky Note Pad v08,Office Supplies,2023-04,428.4,195.84,2.19
+48,Sticky Note Pad v08,Office Supplies,2023-05,636.48,195.84,3.25
+48,Sticky Note Pad v08,Office Supplies,2023-06,493.67999999999995,195.84,2.52
+48,Sticky Note Pad v08,Office Supplies,2023-07,501.84,195.84,2.56
+48,Sticky Note Pad v08,Office Supplies,2023-08,534.48,195.84,2.73
+48,Sticky Note Pad v08,Office Supplies,2023-09,293.76,195.84,1.5
+48,Sticky Note Pad v08,Office Supplies,2023-10,293.76,195.84,1.5
+48,Sticky Note Pad v08,Office Supplies,2023-11,289.68,195.84,1.48
+48,Sticky Note Pad v08,Office Supplies,2023-12,465.1199999999999,195.84,2.38
+49,Correction Tape v09,Office Supplies,2022-01,1631.3500000000001,1508.9,1.08
+49,Correction Tape v09,Office Supplies,2022-02,1532.6,1508.9,1.02
+49,Correction Tape v09,Office Supplies,2022-03,1390.4,1508.9,0.92
+49,Correction Tape v09,Office Supplies,2022-04,2330.5,1508.9,1.54
+49,Correction Tape v09,Office Supplies,2022-05,2235.7,1508.9,1.48
+49,Correction Tape v09,Office Supplies,2022-06,2516.15,1508.9,1.67
+49,Correction Tape v09,Office Supplies,2022-07,2330.5,1508.9,1.54
+49,Correction Tape v09,Office Supplies,2022-08,3239.0000000000005,1508.9,2.15
+49,Correction Tape v09,Office Supplies,2022-09,2279.15,1508.9,1.51
+49,Correction Tape v09,Office Supplies,2022-10,2393.7000000000003,1508.9,1.59
+49,Correction Tape v09,Office Supplies,2022-11,2370.0,1508.9,1.57
+49,Correction Tape v09,Office Supplies,2022-12,1493.1000000000001,1508.9,0.99
+49,Correction Tape v09,Office Supplies,2023-01,1354.8500000000001,1508.9,0.9
+49,Correction Tape v09,Office Supplies,2023-02,1327.2000000000003,1508.9,0.88
+49,Correction Tape v09,Office Supplies,2023-03,2263.35,1508.9,1.5
+49,Correction Tape v09,Office Supplies,2023-04,1817.0,1508.9,1.2
+49,Correction Tape v09,Office Supplies,2023-05,3116.5499999999997,1508.9,2.07
+49,Correction Tape v09,Office Supplies,2023-06,1836.7500000000002,1508.9,1.22
+49,Correction Tape v09,Office Supplies,2023-07,2567.5,1508.9,1.7
+49,Correction Tape v09,Office Supplies,2023-08,2587.2500000000005,1508.9,1.71
+49,Correction Tape v09,Office Supplies,2023-09,2942.7499999999995,1508.9,1.95
+49,Correction Tape v09,Office Supplies,2023-10,1931.5499999999997,1508.9,1.28
+49,Correction Tape v09,Office Supplies,2023-11,2709.7000000000003,1508.9,1.8
+49,Correction Tape v09,Office Supplies,2023-12,2460.8500000000004,1508.9,1.63
+50,Index Card Pack v10,Office Supplies,2022-01,702.53,137.92,5.09
+50,Index Card Pack v10,Office Supplies,2022-02,555.9900000000001,137.92,4.03
+50,Index Card Pack v10,Office Supplies,2022-03,827.5200000000001,137.92,6.0
+50,Index Card Pack v10,Office Supplies,2022-04,1094.7400000000002,137.92,7.94
+50,Index Card Pack v10,Office Supplies,2022-05,1142.1499999999999,137.92,8.28
+50,Index Card Pack v10,Office Supplies,2022-06,905.0999999999999,137.92,6.56
+50,Index Card Pack v10,Office Supplies,2022-07,926.6499999999999,137.92,6.72
+50,Index Card Pack v10,Office Supplies,2022-08,1163.7000000000003,137.92,8.44
+50,Index Card Pack v10,Office Supplies,2022-09,879.2399999999999,137.92,6.38
+50,Index Card Pack v10,Office Supplies,2022-10,1025.78,137.92,7.44
+50,Index Card Pack v10,Office Supplies,2022-11,840.4499999999999,137.92,6.09
+50,Index Card Pack v10,Office Supplies,2022-12,862.0000000000001,137.92,6.25
+50,Index Card Pack v10,Office Supplies,2023-01,883.5500000000001,137.92,6.41
+50,Index Card Pack v10,Office Supplies,2023-02,633.57,137.92,4.59
+50,Index Card Pack v10,Office Supplies,2023-03,715.46,137.92,5.19
+50,Index Card Pack v10,Office Supplies,2023-04,1129.2199999999998,137.92,8.19
+50,Index Card Pack v10,Office Supplies,2023-05,1224.0399999999997,137.92,8.88
+50,Index Card Pack v10,Office Supplies,2023-06,969.75,137.92,7.03
+50,Index Card Pack v10,Office Supplies,2023-07,1262.8299999999997,137.92,9.16
+50,Index Card Pack v10,Office Supplies,2023-08,1094.7399999999998,137.92,7.94
+50,Index Card Pack v10,Office Supplies,2023-09,1051.6399999999999,137.92,7.63
+50,Index Card Pack v10,Office Supplies,2023-10,1077.5,137.92,7.81
+50,Index Card Pack v10,Office Supplies,2023-11,969.7499999999998,137.92,7.03
+50,Index Card Pack v10,Office Supplies,2023-12,939.5799999999999,137.92,6.81

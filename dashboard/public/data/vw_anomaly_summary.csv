@@ -1,0 +1,119 @@
+AnomalyID,ProductID,ProductName,Category,DetectorType,AnomalyScore,AnomalyDate,FeatureName,FeatureValue,Severity,DetectedAt
+845,19,Torque Sensor v09,Industrial Parts,zscore,4.6076,2022-08-07,QuantitySold,0.0,HIGH,2026-03-02 22:42:39
+843,19,Torque Sensor v09,Industrial Parts,zscore,4.5606,2022-06-15,QuantitySold,0.0,HIGH,2026-03-02 22:42:39
+851,19,Torque Sensor v09,Industrial Parts,zscore,4.5261,2023-12-21,QuantitySold,0.0,HIGH,2026-03-02 22:42:39
+865,33,Copper Wire v03,Raw Materials,zscore,4.2426,2022-08-20,QuantitySold,0.0,HIGH,2026-03-02 22:42:39
+863,33,Copper Wire v03,Raw Materials,zscore,4.1907,2022-05-27,QuantitySold,0.0,HIGH,2026-03-02 22:42:39
+873,36,Resin Block v06,Raw Materials,zscore,4.1891,2022-10-30,QuantitySold,0.0,HIGH,2026-03-02 22:42:39
+832,7,Wireless Sensor v07,Electronics,zscore,4.1747,2023-08-08,QuantitySold,0.0,HIGH,2026-03-02 22:42:39
+875,36,Resin Block v06,Raw Materials,zscore,4.0309,2023-02-25,QuantitySold,0.0,HIGH,2026-03-02 22:42:39
+870,33,Copper Wire v03,Raw Materials,zscore,3.9906,2023-06-08,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+837,14,Conveyor Belt v04,Industrial Parts,zscore,3.9266,2022-09-30,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+840,19,Torque Sensor v09,Industrial Parts,zscore,3.7652,2022-01-19,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+847,19,Torque Sensor v09,Industrial Parts,zscore,3.5253,2023-02-11,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+854,21,Stretch Wrap Film v01,Packaging,zscore,3.5164,2023-05-31,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+849,19,Torque Sensor v09,Industrial Parts,zscore,3.5123,2023-06-15,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+853,21,Stretch Wrap Film v01,Packaging,zscore,3.5046,2023-05-26,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+855,21,Stretch Wrap Film v01,Packaging,zscore,3.4989,2023-09-21,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+882,38,Zinc Ingot v08,Raw Materials,zscore,3.4675,2023-05-27,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+856,25,Pallet Wrap v05,Packaging,zscore,3.4669,2022-04-02,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+858,25,Pallet Wrap v05,Packaging,zscore,3.4595,2023-02-19,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+852,21,Stretch Wrap Film v01,Packaging,zscore,3.4567,2023-01-12,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+850,19,Torque Sensor v09,Industrial Parts,zscore,3.4473,2023-07-01,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+880,38,Zinc Ingot v08,Raw Materials,zscore,3.441,2023-02-24,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+842,19,Torque Sensor v09,Industrial Parts,zscore,3.4253,2022-03-07,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+846,19,Torque Sensor v09,Industrial Parts,zscore,3.4223,2022-08-09,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+848,19,Torque Sensor v09,Industrial Parts,zscore,3.4192,2023-05-24,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+879,37,Rubber Compound v07,Raw Materials,zscore,3.4138,2023-12-29,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+844,19,Torque Sensor v09,Industrial Parts,zscore,3.3844,2022-06-19,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+833,7,Wireless Sensor v07,Electronics,zscore,3.3832,2023-08-21,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+872,33,Copper Wire v03,Raw Materials,zscore,3.3523,2023-08-22,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+836,8,Power Supply Unit v08,Electronics,zscore,3.3507,2023-11-06,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+881,38,Zinc Ingot v08,Raw Materials,zscore,3.3445,2023-05-21,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+830,7,Wireless Sensor v07,Electronics,zscore,3.3428,2022-05-18,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+834,8,Power Supply Unit v08,Electronics,zscore,3.3289,2022-01-22,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+841,19,Torque Sensor v09,Industrial Parts,zscore,3.3272,2022-01-29,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+835,8,Power Supply Unit v08,Electronics,zscore,3.3034,2022-03-23,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+866,33,Copper Wire v03,Raw Materials,zscore,3.3032,2022-08-22,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+883,42,Printer Cartridge v02,Office Supplies,zscore,3.3012,2022-03-18,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+862,33,Copper Wire v03,Raw Materials,zscore,3.2814,2022-02-25,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+877,37,Rubber Compound v07,Raw Materials,zscore,3.2754,2022-04-15,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+869,33,Copper Wire v03,Raw Materials,zscore,3.2737,2023-05-07,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+860,25,Pallet Wrap v05,Packaging,zscore,3.2724,2023-12-19,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+861,33,Copper Wire v03,Raw Materials,zscore,3.2671,2022-02-21,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+867,33,Copper Wire v03,Raw Materials,zscore,3.2611,2023-03-06,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+829,5,Ethernet Switch v05,Electronics,zscore,3.2539,2022-07-04,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+828,5,Ethernet Switch v05,Electronics,zscore,3.2331,2022-04-16,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+876,36,Resin Block v06,Raw Materials,zscore,3.1855,2023-03-05,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+857,25,Pallet Wrap v05,Packaging,zscore,3.1662,2022-11-24,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+831,7,Wireless Sensor v07,Electronics,zscore,3.1583,2022-06-03,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+884,46,Whiteboard Marker v06,Office Supplies,zscore,3.1465,2023-08-06,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+864,33,Copper Wire v03,Raw Materials,zscore,3.141,2022-06-09,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+868,33,Copper Wire v03,Raw Materials,zscore,3.1399,2023-03-22,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+878,37,Rubber Compound v07,Raw Materials,zscore,3.1382,2022-08-07,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+859,25,Pallet Wrap v05,Packaging,zscore,3.131,2023-05-22,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+838,14,Conveyor Belt v04,Industrial Parts,zscore,3.1222,2022-10-01,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+839,14,Conveyor Belt v04,Industrial Parts,zscore,3.1145,2023-07-23,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+871,33,Copper Wire v03,Raw Materials,zscore,3.1094,2023-06-12,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+827,3,Barcode Reader v03,Electronics,zscore,3.0815,2022-09-24,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+874,36,Resin Block v06,Raw Materials,zscore,3.0385,2022-11-09,QuantitySold,0.0,MEDIUM,2026-03-02 22:42:39
+909,6,USB Hub Pro v06,Electronics,isolation_forest,1.0,2023-06-01,TotalUnitsSold,1028.0,HIGH,2026-03-02 22:42:39
+910,6,USB Hub Pro v06,Electronics,isolation_forest,0.8501,2023-08-01,TotalUnitsSold,878.0,HIGH,2026-03-02 22:42:39
+942,46,Whiteboard Marker v06,Office Supplies,isolation_forest,0.8293,2022-11-01,SupplierAvgDelay,9.5,HIGH,2026-03-02 22:42:39
+907,6,USB Hub Pro v06,Electronics,isolation_forest,0.8267,2023-04-01,TotalUnitsSold,885.0,HIGH,2026-03-02 22:42:39
+886,3,Barcode Reader v03,Electronics,isolation_forest,0.8116,2022-05-01,AvgDailyRevenue,7340.9,HIGH,2026-03-02 22:42:39
+919,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.8055,2023-01-01,InventoryTurnover,14.74,HIGH,2026-03-02 22:42:39
+901,5,Ethernet Switch v05,Electronics,isolation_forest,0.7994,2023-07-01,AvgDailyRevenue,5747.54,HIGH,2026-03-02 22:42:39
+890,3,Barcode Reader v03,Electronics,isolation_forest,0.7801,2023-05-01,AvgDailyRevenue,7312.93,HIGH,2026-03-02 22:42:39
+899,5,Ethernet Switch v05,Electronics,isolation_forest,0.7797,2023-05-01,AvgDailyRevenue,7486.29,HIGH,2026-03-02 22:42:39
+916,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.7715,2022-07-01,InventoryTurnover,15.68,HIGH,2026-03-02 22:42:39
+900,5,Ethernet Switch v05,Electronics,isolation_forest,0.7551,2023-06-01,AvgDailyRevenue,7281.02,HIGH,2026-03-02 22:42:39
+896,5,Ethernet Switch v05,Electronics,isolation_forest,0.7538,2022-07-01,AvgDailyRevenue,5010.99,HIGH,2026-03-02 22:42:39
+921,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.7512,2023-04-01,InventoryTurnover,16.79,HIGH,2026-03-02 22:42:39
+911,6,USB Hub Pro v06,Electronics,isolation_forest,0.7453,2023-09-01,SupplierAvgDelay,9.0,HIGH,2026-03-02 22:42:39
+922,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.7451,2023-05-01,InventoryTurnover,18.56,HIGH,2026-03-02 22:42:39
+891,3,Barcode Reader v03,Electronics,isolation_forest,0.7358,2023-07-01,AvgDailyRevenue,5774.84,HIGH,2026-03-02 22:42:39
+903,5,Ethernet Switch v05,Electronics,isolation_forest,0.7315,2023-10-01,AvgDailyRevenue,6399.57,HIGH,2026-03-02 22:42:39
+914,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.722,2022-04-01,InventoryTurnover,12.62,HIGH,2026-03-02 22:42:39
+915,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.7187,2022-05-01,InventoryTurnover,17.09,HIGH,2026-03-02 22:42:39
+923,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.7179,2023-06-01,InventoryTurnover,17.62,HIGH,2026-03-02 22:42:39
+928,25,Pallet Wrap v05,Packaging,isolation_forest,0.7155,2023-05-01,TotalUnitsSold,960.0,HIGH,2026-03-02 22:42:39
+927,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.7105,2023-12-01,InventoryTurnover,17.5,HIGH,2026-03-02 22:42:39
+902,5,Ethernet Switch v05,Electronics,isolation_forest,0.7,2023-09-01,AvgDailyRevenue,6001.11,HIGH,2026-03-02 22:42:39
+898,5,Ethernet Switch v05,Electronics,isolation_forest,0.6998,2023-04-01,AvgDailyRevenue,6097.71,HIGH,2026-03-02 22:42:39
+925,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.6982,2023-08-01,InventoryTurnover,17.09,HIGH,2026-03-02 22:42:39
+905,6,USB Hub Pro v06,Electronics,isolation_forest,0.6973,2022-05-01,TotalUnitsSold,811.0,HIGH,2026-03-02 22:42:39
+908,6,USB Hub Pro v06,Electronics,isolation_forest,0.6966,2023-05-01,TotalUnitsSold,794.0,HIGH,2026-03-02 22:42:39
+894,5,Ethernet Switch v05,Electronics,isolation_forest,0.6936,2022-04-01,AvgDailyRevenue,6520.32,HIGH,2026-03-02 22:42:39
+895,5,Ethernet Switch v05,Electronics,isolation_forest,0.6835,2022-06-01,AvgDailyRevenue,6810.11,HIGH,2026-03-02 22:42:39
+937,35,Carbon Fiber Spool v05,Raw Materials,isolation_forest,0.6733,2023-04-01,InventoryTurnover,15.39,HIGH,2026-03-02 22:42:39
+917,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.6583,2022-11-01,InventoryTurnover,14.12,HIGH,2026-03-02 22:42:39
+906,6,USB Hub Pro v06,Electronics,isolation_forest,0.6578,2022-07-01,TotalUnitsSold,739.0,HIGH,2026-03-02 22:42:39
+913,16,Valve Controller v06,Industrial Parts,isolation_forest,0.6575,2023-05-01,TotalUnitsSold,859.0,HIGH,2026-03-02 22:42:39
+932,27,Corrugated Sheet v07,Packaging,isolation_forest,0.6572,2023-09-01,TotalUnitsSold,910.0,HIGH,2026-03-02 22:42:39
+933,32,Steel Rod v02,Raw Materials,isolation_forest,0.6556,2022-10-01,SupplierAvgDelay,12.0,HIGH,2026-03-02 22:42:39
+926,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.6548,2023-09-01,InventoryTurnover,15.94,HIGH,2026-03-02 22:42:39
+931,25,Pallet Wrap v05,Packaging,isolation_forest,0.6492,2023-12-01,TotalUnitsSold,918.0,HIGH,2026-03-02 22:42:39
+918,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.6485,2022-12-01,InventoryTurnover,14.32,HIGH,2026-03-02 22:42:39
+941,46,Whiteboard Marker v06,Office Supplies,isolation_forest,0.6453,2022-07-01,InventoryTurnover,13.62,HIGH,2026-03-02 22:42:39
+904,6,USB Hub Pro v06,Electronics,isolation_forest,0.6438,2022-04-01,TotalUnitsSold,813.0,HIGH,2026-03-02 22:42:39
+943,46,Whiteboard Marker v06,Office Supplies,isolation_forest,0.6398,2023-05-01,InventoryTurnover,18.27,HIGH,2026-03-02 22:42:39
+944,46,Whiteboard Marker v06,Office Supplies,isolation_forest,0.6324,2023-07-01,InventoryTurnover,18.27,HIGH,2026-03-02 22:42:39
+887,3,Barcode Reader v03,Electronics,isolation_forest,0.6313,2022-06-01,AvgDailyRevenue,4907.92,HIGH,2026-03-02 22:42:39
+889,3,Barcode Reader v03,Electronics,isolation_forest,0.6308,2022-09-01,AvgDailyRevenue,6264.23,HIGH,2026-03-02 22:42:39
+920,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.6304,2023-03-01,InventoryTurnover,13.74,HIGH,2026-03-02 22:42:39
+885,3,Barcode Reader v03,Electronics,isolation_forest,0.6276,2022-04-01,AvgDailyRevenue,6236.27,HIGH,2026-03-02 22:42:39
+934,33,Copper Wire v03,Raw Materials,isolation_forest,0.6271,2022-10-01,SupplierAvgDelay,12.0,HIGH,2026-03-02 22:42:39
+939,35,Carbon Fiber Spool v05,Raw Materials,isolation_forest,0.6259,2023-09-01,InventoryTurnover,13.06,HIGH,2026-03-02 22:42:39
+929,25,Pallet Wrap v05,Packaging,isolation_forest,0.6232,2023-06-01,TotalUnitsSold,898.0,HIGH,2026-03-02 22:42:39
+888,3,Barcode Reader v03,Electronics,isolation_forest,0.6226,2022-08-01,AvgDailyRevenue,6180.34,HIGH,2026-03-02 22:42:39
+940,46,Whiteboard Marker v06,Office Supplies,isolation_forest,0.6212,2022-05-01,InventoryTurnover,17.38,HIGH,2026-03-02 22:42:39
+912,7,Wireless Sensor v07,Electronics,isolation_forest,0.6211,2023-07-01,SupplierAvgDelay,7.0,HIGH,2026-03-02 22:42:39
+930,25,Pallet Wrap v05,Packaging,isolation_forest,0.6205,2023-09-01,SupplierAvgDelay,-5.0,HIGH,2026-03-02 22:42:39
+935,35,Carbon Fiber Spool v05,Raw Materials,isolation_forest,0.6194,2022-05-01,InventoryTurnover,15.0,HIGH,2026-03-02 22:42:39
+938,35,Carbon Fiber Spool v05,Raw Materials,isolation_forest,0.6139,2023-05-01,InventoryTurnover,18.06,HIGH,2026-03-02 22:42:39
+936,35,Carbon Fiber Spool v05,Raw Materials,isolation_forest,0.6131,2022-11-01,InventoryTurnover,11.17,HIGH,2026-03-02 22:42:39
+924,19,Torque Sensor v09,Industrial Parts,isolation_forest,0.6093,2023-07-01,InventoryTurnover,15.76,HIGH,2026-03-02 22:42:39
+892,3,Barcode Reader v03,Electronics,isolation_forest,0.6069,2023-10-01,AvgDailyRevenue,6138.39,HIGH,2026-03-02 22:42:39
+897,5,Ethernet Switch v05,Electronics,isolation_forest,0.6023,2022-08-01,AvgDailyRevenue,5771.69,HIGH,2026-03-02 22:42:39
+893,4,LED Display Module v04,Electronics,isolation_forest,0.6004,2022-08-01,SupplierAvgDelay,-5.0,HIGH,2026-03-02 22:42:39
