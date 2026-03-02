@@ -1,0 +1,51 @@
+ProductID,ProductName,Category,SafetyStockLevel,QuantityOnHand,ReorderPoint,IsStockout,BelowReorderPoint,LastUpdated
+1,Microcontroller Unit v01,Electronics,92,184,433,0,1,2023-12-31
+2,RFID Scanner v02,Electronics,110,220,565,0,1,2023-12-31
+3,Barcode Reader v03,Electronics,107,128,198,0,1,2023-12-31
+4,LED Display Module v04,Electronics,44,132,220,0,1,2023-12-31
+5,Ethernet Switch v05,Electronics,113,226,339,0,1,2023-12-31
+6,USB Hub Pro v06,Electronics,178,89,279,1,1,2023-12-31
+7,Wireless Sensor v07,Electronics,41,49,175,0,1,2023-12-31
+8,Power Supply Unit v08,Electronics,94,282,456,0,1,2023-12-31
+9,Signal Converter v09,Electronics,79,94,248,0,1,2023-12-31
+10,Touch Panel v10,Electronics,151,181,604,0,1,2023-12-31
+11,Hydraulic Pump v01,Industrial Parts,88,70,226,1,1,2023-12-31
+12,Ball Bearing v02,Industrial Parts,161,80,345,1,1,2023-12-31
+13,Drive Shaft v03,Industrial Parts,72,144,164,0,1,2023-12-31
+14,Conveyor Belt v04,Industrial Parts,40,80,182,0,1,2023-12-31
+15,Gear Assembly v05,Industrial Parts,155,186,708,0,1,2023-12-31
+16,Valve Controller v06,Industrial Parts,180,360,437,0,1,2023-12-31
+17,Pneumatic Cylinder v07,Industrial Parts,168,336,360,0,1,2023-12-31
+18,Coupling Flange v08,Industrial Parts,158,189,609,0,1,2023-12-31
+19,Torque Sensor v09,Industrial Parts,115,34,361,1,1,2023-12-31
+20,Filter Housing v10,Industrial Parts,56,67,104,0,1,2023-12-31
+21,Stretch Wrap Film v01,Packaging,172,344,614,0,1,2023-12-31
+22,Cardboard Box v02,Packaging,117,93,401,1,1,2023-12-31
+23,Bubble Wrap Roll v03,Packaging,124,148,177,0,1,2023-12-31
+24,Shrink Sleeve v04,Packaging,62,49,186,1,1,2023-12-31
+25,Pallet Wrap v05,Packaging,166,83,260,1,1,2023-12-31
+26,Foam Insert v06,Packaging,92,73,354,1,1,2023-12-31
+27,Corrugated Sheet v07,Packaging,199,238,767,0,1,2023-12-31
+28,Tape Dispenser v08,Packaging,71,142,142,0,0,2023-12-31
+29,Poly Bag v09,Packaging,156,312,646,0,1,2023-12-31
+30,Label Stock v10,Packaging,181,362,594,0,1,2023-12-31
+31,Aluminum Sheet v01,Raw Materials,104,208,326,0,1,2023-12-31
+32,Steel Rod v02,Raw Materials,139,111,536,1,1,2023-12-31
+33,Copper Wire v03,Raw Materials,75,90,139,0,1,2023-12-31
+34,PVC Pellets v04,Raw Materials,104,83,416,1,1,2023-12-31
+35,Carbon Fiber Spool v05,Raw Materials,60,18,265,1,1,2023-12-31
+36,Resin Block v06,Raw Materials,150,180,364,0,1,2023-12-31
+37,Rubber Compound v07,Raw Materials,34,68,106,0,1,2023-12-31
+38,Zinc Ingot v08,Raw Materials,163,195,582,0,1,2023-12-31
+39,Titanium Powder v09,Raw Materials,13,15,55,0,1,2023-12-31
+40,Silicone Sheet v10,Raw Materials,68,34,252,1,1,2023-12-31
+41,Thermal Paper Roll v01,Office Supplies,129,154,221,0,1,2023-12-31
+42,Printer Cartridge v02,Office Supplies,44,52,144,0,1,2023-12-31
+43,Staple Pack v03,Office Supplies,138,276,236,0,0,2023-12-31
+44,File Folder v04,Office Supplies,66,79,320,0,1,2023-12-31
+45,Desk Organizer v05,Office Supplies,126,151,450,0,1,2023-12-31
+46,Whiteboard Marker v06,Office Supplies,89,26,292,1,1,2023-12-31
+47,Binding Comb v07,Office Supplies,62,74,203,0,1,2023-12-31
+48,Sticky Note Pad v08,Office Supplies,40,48,142,0,1,2023-12-31
+49,Correction Tape v09,Office Supplies,191,382,491,0,1,2023-12-31
+50,Index Card Pack v10,Office Supplies,64,32,91,1,1,2023-12-31

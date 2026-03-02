@@ -1,0 +1,51 @@
+ProductID,ProductName,Category,QuantityOnHand,CurrentROP,RecommendedROP,RecommendedEOQ,LeadTimeDays,AlertStatus
+1,Microcontroller Unit v01,Electronics,184,433,438.3,76.8,26,ORDER NOW
+2,RFID Scanner v02,Electronics,220,565,574.3,92.3,29,ORDER NOW
+3,Barcode Reader v03,Electronics,128,198,125.8,93.0,6,ORDER SOON
+4,LED Display Module v04,Electronics,132,220,220.5,65.3,28,ORDER NOW
+5,Ethernet Switch v05,Electronics,226,339,299.3,111.1,14,ORDER NOW
+6,USB Hub Pro v06,Electronics,89,279,146.3,213.1,4,ORDER NOW
+7,Wireless Sensor v07,Electronics,49,175,171.3,59.3,23,ORDER NOW
+8,Power Supply Unit v08,Electronics,282,456,459.0,134.2,27,ORDER NOW
+9,Signal Converter v09,Electronics,94,248,219.2,72.3,15,ORDER NOW
+10,Touch Panel v10,Electronics,181,604,602.6,366.0,21,ORDER NOW
+11,Hydraulic Pump v01,Industrial Parts,70,226,181.3,134.1,11,ORDER NOW
+12,Ball Bearing v02,Industrial Parts,80,345,251.5,259.6,8,ORDER NOW
+13,Drive Shaft v03,Industrial Parts,144,164,124.5,264.4,9,ORDER SOON
+14,Conveyor Belt v04,Industrial Parts,80,182,184.5,111.3,25,ORDER NOW
+15,Gear Assembly v05,Industrial Parts,186,708,714.7,180.0,25,ORDER NOW
+16,Valve Controller v06,Industrial Parts,360,437,342.7,192.9,10,ORDER SOON
+17,Pneumatic Cylinder v07,Industrial Parts,336,360,257.2,185.6,8,OK
+18,Coupling Flange v08,Industrial Parts,189,609,580.3,683.8,20,ORDER NOW
+19,Torque Sensor v09,Industrial Parts,34,361,312.2,193.3,15,ORDER NOW
+20,Filter Housing v10,Industrial Parts,67,104,65.0,130.1,6,ORDER SOON
+21,Stretch Wrap Film v01,Packaging,344,614,559.2,718.6,18,ORDER NOW
+22,Cardboard Box v02,Packaging,93,401,364.1,471.0,17,ORDER NOW
+23,Bubble Wrap Roll v03,Packaging,148,177,72.1,607.8,3,OK
+24,Shrink Sleeve v04,Packaging,49,186,164.4,513.8,14,ORDER NOW
+25,Pallet Wrap v05,Packaging,83,260,140.1,674.1,4,ORDER NOW
+26,Foam Insert v06,Packaging,73,354,338.7,794.3,20,ORDER NOW
+27,Corrugated Sheet v07,Packaging,238,767,772.2,762.9,20,ORDER NOW
+28,Tape Dispenser v08,Packaging,142,142,100.1,544.2,7,OK
+29,Poly Bag v09,Packaging,312,646,628.6,1840.2,22,ORDER NOW
+30,Label Stock v10,Packaging,362,594,542.6,686.1,16,ORDER NOW
+31,Aluminum Sheet v01,Raw Materials,208,326,286.4,366.2,15,ORDER NOW
+32,Steel Rod v02,Raw Materials,111,536,520.4,315.6,20,ORDER NOW
+33,Copper Wire v03,Raw Materials,90,139,86.4,259.9,6,ORDER SOON
+34,PVC Pellets v04,Raw Materials,83,416,405.8,169.6,21,ORDER NOW
+35,Carbon Fiber Spool v05,Raw Materials,18,265,265.7,246.5,24,ORDER NOW
+36,Resin Block v06,Raw Materials,180,364,286.3,267.5,10,ORDER NOW
+37,Rubber Compound v07,Raw Materials,68,106,95.1,296.0,15,ORDER NOW
+38,Zinc Ingot v08,Raw Materials,195,582,546.3,485.3,18,ORDER NOW
+39,Titanium Powder v09,Raw Materials,15,55,54.9,127.3,23,ORDER NOW
+40,Silicone Sheet v10,Raw Materials,34,252,240.3,130.0,19,ORDER NOW
+41,Thermal Paper Roll v01,Office Supplies,154,221,135.9,652.7,5,ORDER SOON
+42,Printer Cartridge v02,Office Supplies,52,144,129.8,578.2,16,ORDER NOW
+43,Staple Pack v03,Office Supplies,276,236,134.8,1032.1,5,OK
+44,File Folder v04,Office Supplies,79,320,336.6,484.9,27,ORDER NOW
+45,Desk Organizer v05,Office Supplies,151,450,428.2,770.0,18,ORDER NOW
+46,Whiteboard Marker v06,Office Supplies,26,292,267.2,2113.2,16,ORDER NOW
+47,Binding Comb v07,Office Supplies,74,203,187.4,449.3,16,ORDER NOW
+48,Sticky Note Pad v08,Office Supplies,48,142,138.4,381.6,18,ORDER NOW
+49,Correction Tape v09,Office Supplies,382,491,399.5,929.8,11,ORDER NOW
+50,Index Card Pack v10,Office Supplies,32,91,39.7,568.0,3,ORDER NOW
