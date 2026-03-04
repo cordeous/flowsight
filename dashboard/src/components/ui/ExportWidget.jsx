@@ -13,11 +13,50 @@ export default function ExportWidget({ pageTitle }) {
 
             // Capture only the main content area (not sidebar)
             const target = document.getElementById('pdf-capture-zone') || document.body
+
+            // Pre-compute all colors as inline RGB before html2canvas parses the CSS.
+            // Tailwind v4 uses oklch() which html2canvas can't parse; getComputedStyle
+            // always returns resolved rgb() values that html2canvas understands.
+            const COLOR_PROPS = [
+                'color', 'backgroundColor', 'borderColor',
+                'borderTopColor', 'borderRightColor', 'borderBottomColor', 'borderLeftColor',
+                'outlineColor', 'fill', 'stroke', 'caretColor', 'columnRuleColor',
+                'textDecorationColor', 'accentColor',
+            ]
+
             const canvas = await html2canvas(target, {
                 scale: 1.5,
                 useCORS: true,
                 backgroundColor: '#f8fafc',
                 logging: false,
+                onclone: (clonedDoc, clonedEl) => {
+                    // Walk every element in BOTH the original and cloned docs simultaneously
+                    // so we can read live computed styles and stamp them onto the clone
+                    const origEls = Array.from(target.querySelectorAll('*'))
+                    const cloneEls = Array.from(clonedEl.querySelectorAll('*'))
+
+                    origEls.forEach((orig, i) => {
+                        const clone = cloneEls[i]
+                        if (!clone) return
+                        try {
+                            const cs = window.getComputedStyle(orig)
+                            COLOR_PROPS.forEach(prop => {
+                                const val = cs.getPropertyValue(prop)
+                                if (val && val !== '') {
+                                    clone.style.setProperty(prop, val, 'important')
+                                }
+                            })
+                        } catch (_) { /* skip SVG / pseudo elements */ }
+                    })
+
+                    // Also inject a blanket safety style to neutralize any remaining oklch
+                    const safeStyle = clonedDoc.createElement('style')
+                    safeStyle.textContent = `
+                        * { color-scheme: light !important; }
+                        :root { --tw-ring-color: rgb(99 102 241 / 0.5); }
+                    `
+                    clonedDoc.head.appendChild(safeStyle)
+                },
             })
 
             const imgData = canvas.toDataURL('image/png')
