@@ -1,11 +1,10 @@
 import { useState, useMemo } from 'react'
-import { C } from '../../utils/colors'
 
 export default function DataTable({ rows = [], columns = [], rowStyle }) {
-  const [search, setSearch]   = useState('')
+  const [search, setSearch] = useState('')
   const [sortCol, setSortCol] = useState(null)
   const [sortDir, setSortDir] = useState(1)
-  const [page, setPage]       = useState(0)
+  const [page, setPage] = useState(0)
   const PAGE_SIZE = 10
 
   const filtered = useMemo(() => {
@@ -36,70 +35,93 @@ export default function DataTable({ rows = [], columns = [], rowStyle }) {
   }
 
   return (
-    <div>
-      <div style={{ marginBottom: 10 }}>
-        <input
-          value={search}
-          onChange={e => { setSearch(e.target.value); setPage(0) }}
-          placeholder="Search…"
-          style={{
-            background: C.bg, border: `1px solid ${C.border}`, borderRadius: 6,
-            color: C.text, padding: '6px 12px', fontSize: 12, width: 220, outline: 'none',
-          }}
-        />
+    <div className="flex flex-col h-full w-full">
+      <div className="mb-4 flex items-center justify-between gap-4 flex-wrap">
+        <div className="relative">
+          <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <input
+            value={search}
+            onChange={e => { setSearch(e.target.value); setPage(0) }}
+            placeholder="Search..."
+            className="bg-slate-50/50 border border-slate-200 rounded-lg pl-9 pr-4 py-2 text-sm text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all w-64 shadow-sm"
+          />
+        </div>
       </div>
-      <div style={{ overflowX: 'auto' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12 }}>
-          <thead>
+
+      <div className="overflow-x-auto w-full rounded-xl border border-slate-200 bg-white/20 backdrop-blur-sm shadow-xl">
+        <table className="w-full text-sm text-left">
+          <thead className="bg-slate-50/60 sticky top-0 z-10 backdrop-blur-md">
             <tr>
               {columns.map(c => (
-                <th key={c.key} onClick={() => handleSort(c.key)}
-                  style={{
-                    textAlign: c.align ?? 'left', padding: '8px 12px',
-                    background: C.bg, color: C.subtle, fontWeight: 600,
-                    fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
-                    borderBottom: `1px solid ${C.border}`, cursor: 'pointer',
-                    whiteSpace: 'nowrap', userSelect: 'none',
-                  }}>
-                  {c.label} {sortCol === c.key ? (sortDir === 1 ? '↑' : '↓') : ''}
+                <th
+                  key={c.key}
+                  onClick={() => handleSort(c.key)}
+                  className={`px-4 py-3 text-xs font-semibold text-slate-500 tracking-wider uppercase border-b border-slate-200 cursor-pointer hover:bg-slate-100/50 transition-colors select-none whitespace-nowrap ${c.align === 'right' ? 'text-right' : 'text-left'}`}
+                >
+                  <div className={`flex items-center gap-2 ${c.align === 'right' ? 'justify-end' : 'justify-start'}`}>
+                    {c.label}
+                    {sortCol === c.key && (
+                      <span className="text-indigo-500 font-bold">{sortDir === 1 ? '↑' : '↓'}</span>
+                    )}
+                  </div>
                 </th>
               ))}
             </tr>
           </thead>
-          <tbody>
-            {pageRows.map((row, i) => (
-              <tr key={i} style={{
-                borderBottom: `1px solid ${C.border}`,
-                background: rowStyle ? rowStyle(row) : (i % 2 === 1 ? `${C.surface}80` : 'transparent'),
-              }}>
-                {columns.map(c => (
-                  <td key={c.key} style={{ padding: '8px 12px', color: C.text, textAlign: c.align ?? 'left' }}>
-                    {c.render ? c.render(row[c.key], row) : (row[c.key] ?? '—')}
-                  </td>
-                ))}
-              </tr>
-            ))}
+          <tbody className="divide-y divide-slate-100">
+            {pageRows.map((row, i) => {
+              const customStyle = rowStyle ? rowStyle(row) : '';
+              const bgClass = customStyle !== 'transparent' && customStyle ? customStyle : (i % 2 === 0 ? 'bg-transparent' : 'bg-slate-50/50');
+
+              return (
+                <tr key={i} className={`hover:bg-slate-100/50 transition-colors ${bgClass}`}>
+                  {columns.map(c => (
+                    <td key={c.key} className={`px-4 py-3 text-slate-600 ${c.align === 'right' ? 'text-right' : 'text-left'}`}>
+                      {c.render ? c.render(row[c.key], row) : (row[c.key] ?? '—')}
+                    </td>
+                  ))}
+                </tr>
+              )
+            })}
             {pageRows.length === 0 && (
-              <tr><td colSpan={columns.length} style={{ padding: 24, textAlign: 'center', color: C.subtle }}>No results</td></tr>
+              <tr>
+                <td colSpan={columns.length} className="px-6 py-12 text-center text-slate-500 font-medium">
+                  No results found matching your search.
+                </td>
+              </tr>
             )}
           </tbody>
         </table>
       </div>
+
       {pages > 1 && (
-        <div style={{ display: 'flex', gap: 6, marginTop: 10, alignItems: 'center' }}>
-          <span style={{ color: C.subtle, fontSize: 11 }}>{sorted.length} rows</span>
-          <button onClick={() => setPage(p => Math.max(0, p - 1))} disabled={page === 0}
-            style={{ ...btnStyle, opacity: page === 0 ? 0.4 : 1 }}>←</button>
-          <span style={{ color: C.text, fontSize: 12 }}>{page + 1} / {pages}</span>
-          <button onClick={() => setPage(p => Math.min(pages - 1, p + 1))} disabled={page === pages - 1}
-            style={{ ...btnStyle, opacity: page === pages - 1 ? 0.4 : 1 }}>→</button>
+        <div className="flex items-center justify-between mt-4 px-2">
+          <span className="text-xs text-slate-500 font-medium">
+            Showing {page * PAGE_SIZE + 1} to {Math.min((page + 1) * PAGE_SIZE, sorted.length)} of {sorted.length} entries
+          </span>
+          <div className="flex items-center gap-2 bg-white/50 p-1 rounded-lg border border-slate-200">
+            <button
+              onClick={() => setPage(p => Math.max(0, p - 1))}
+              disabled={page === 0}
+              className="px-3 py-1 rounded-md text-slate-500 hover:text-indigo-600 hover:bg-slate-100 disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-slate-500 transition-all text-sm font-bold"
+            >
+              ←
+            </button>
+            <span className="text-xs font-semibold text-slate-700 bg-white shadow-sm border border-slate-100 px-2 py-1 rounded">
+              {page + 1} / {pages}
+            </span>
+            <button
+              onClick={() => setPage(p => Math.min(pages - 1, p + 1))}
+              disabled={page === pages - 1}
+              className="px-3 py-1 rounded-md text-slate-500 hover:text-indigo-600 hover:bg-slate-100 disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-slate-500 transition-all text-sm font-bold"
+            >
+              →
+            </button>
+          </div>
         </div>
       )}
     </div>
   )
-}
-
-const btnStyle = {
-  background: 'none', border: `1px solid #2a2d3e`, borderRadius: 4,
-  color: '#e8eaf6', padding: '3px 10px', cursor: 'pointer', fontSize: 12,
 }

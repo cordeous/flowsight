@@ -1,29 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --color-bg:      #0f1117;
-  --color-surface: #1a1d27;
-  --color-border:  #2a2d3e;
-  --color-blue:    #0d6efd;
-  --color-green:   #198754;
-  --color-red:     #dc3545;
-  --color-orange:  #fd7e14;
-  --color-text:    #e8eaf6;
-  --color-subtle:  #8892b0;
+* {
+  box-sizing: border-box;
 }
-
-* { box-sizing: border-box; }
 
 body {
   margin: 0;
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  font-family: Inter, 'Segoe UI', system-ui, sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: var(--color-bg); }
-::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--color-subtle); }
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Utility classes for clean dashboard styling */
+@layer utilities {
+  .glass-card {
+    @apply bg-white border border-slate-200 shadow-sm shadow-slate-200/50;
+  }
+}

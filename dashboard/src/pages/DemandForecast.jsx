@@ -26,9 +26,9 @@ export default function DemandForecast() {
   const kpis = useMemo(() => {
     if (!evaluation || !forecast) return null
     const arimaRows = evaluation.filter(r => r.ModelName === 'ARIMA')
-    const hwRows    = evaluation.filter(r => r.ModelName === 'HoltWinters')
+    const hwRows = evaluation.filter(r => r.ModelName === 'HoltWinters')
     const arimaMAPE = arimaRows.reduce((s, r) => s + r.MAPE, 0) / (arimaRows.length || 1)
-    const hwMAPE    = hwRows.reduce((s, r)    => s + r.MAPE, 0) / (hwRows.length || 1)
+    const hwMAPE = hwRows.reduce((s, r) => s + r.MAPE, 0) / (hwRows.length || 1)
     const forecastedProducts = new Set(forecast.map(r => r.ProductID)).size
     const total30d = forecast.filter(r => r.HorizonDays === 30 && r.ModelName === 'ARIMA')
       .reduce((s, r) => s + r.ForecastQty, 0)
@@ -46,77 +46,101 @@ export default function DemandForecast() {
     })
     return Object.values(map).map(d => ({
       model: d.model,
-      MAE:   (d.mae.reduce((a, b) => a + b, 0) / d.mae.length).toFixed(2),
-      RMSE:  (d.rmse.reduce((a, b) => a + b, 0) / d.rmse.length).toFixed(2),
-      MAPE:  ((d.mape.reduce((a, b) => a + b, 0) / d.mape.length) * 100).toFixed(1) + '%',
+      MAE: (d.mae.reduce((a, b) => a + b, 0) / d.mae.length).toFixed(2),
+      RMSE: (d.rmse.reduce((a, b) => a + b, 0) / d.rmse.length).toFixed(2),
+      MAPE: ((d.mape.reduce((a, b) => a + b, 0) / d.mape.length) * 100).toFixed(1) + '%',
     }))
   }, [evaluation])
 
-  const btnStyle = (active) => ({
-    padding: '5px 14px', fontSize: 12, cursor: 'pointer', borderRadius: 6, border: `1px solid ${C.border}`,
-    background: active ? C.blue : 'transparent', color: active ? '#fff' : C.subtle,
-  })
+  const btnStyle = (active) => `
+    px-4 py-1.5 text-xs font-semibold rounded-lg border transition-all duration-200
+    ${active
+      ? 'bg-indigo-600 border-indigo-500 text-white shadow-lg shadow-indigo-500/20'
+      : 'bg-transparent border-slate-200 text-slate-600 hover:text-indigo-600 hover:bg-white'
+    }
+  `
 
   return (
-    <div>
+    <div className="space-y-6">
       <SectionTitle>Forecast Accuracy KPIs</SectionTitle>
-      <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginBottom: 20 }}>
-        <KpiCard label="ARIMA MAPE" value={fmtPct(kpis?.arimaMAPE * 100, 1)} accent={C.blue}
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <KpiCard icon="🎯" label="ARIMA MAPE" value={fmtPct(kpis?.arimaMAPE * 100, 1)} accentColor="#0d6efd"
           sub="Mean Absolute % Error (lower = better)" />
-        <KpiCard label="Holt-Winters MAPE" value={fmtPct(kpis?.hwMAPE * 100, 1)} accent={C.orange}
+        <KpiCard icon="📈" label="Holt-Winters MAPE" value={fmtPct(kpis?.hwMAPE * 100, 1)} accentColor="#fd7e14"
           sub="Mean Absolute % Error (lower = better)" />
-        <KpiCard label="Forecasted Products" value={kpis?.forecastedProducts ?? '—'} accent={C.green} />
-        <KpiCard label="Total 30-Day Demand" value={fmtNum(kpis?.total30d)} accent={C.purple ?? C.blue}
+        <KpiCard icon="📦" label="Forecasted Products" value={kpis?.forecastedProducts ?? '—'} accentColor="#198754" />
+        <KpiCard icon="🔮" label="Total 30-Day Demand" value={fmtNum(kpis?.total30d)} accentColor="indigo"
           sub="ARIMA forecast across all products" />
       </div>
 
       {/* Controls */}
-      <div style={{ display: 'flex', gap: 16, alignItems: 'center', marginBottom: 16, flexWrap: 'wrap' }}>
-        <div style={{ display: 'flex', gap: 4 }}>
+      <div className="flex flex-wrap items-center gap-4 bg-white/50 p-4 rounded-xl border border-slate-200 backdrop-blur-md">
+        <div className="flex gap-2 bg-slate-100/80 p-1 rounded-xl">
           {[30, 60, 90].map(h => (
-            <button key={h} onClick={() => setHorizon(h)} style={btnStyle(horizon === h)}>{h}d</button>
+            <button key={h} onClick={() => setHorizon(h)} className={btnStyle(horizon === h)}>{h}d</button>
           ))}
         </div>
-        <select value={effectiveProduct ?? ''} onChange={e => setSelectedProduct(Number(e.target.value))}
-          style={{ background: C.surface, border: `1px solid ${C.border}`, color: C.text,
-            borderRadius: 6, padding: '5px 12px', fontSize: 12, cursor: 'pointer' }}>
-          {products.map(p => <option key={p.id} value={p.id}>{p.name}</option>)}
-        </select>
+
+        <div className="flex-1 min-w-[200px] max-w-sm ml-auto">
+          <select
+            value={effectiveProduct ?? ''}
+            onChange={e => setSelectedProduct(Number(e.target.value))}
+            className="w-full bg-white border border-slate-200 text-slate-700 hover:border-indigo-300 text-sm rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all cursor-pointer shadow-sm"
+          >
+            {products.map(p => <option key={p.id} value={p.id}>{p.name}</option>)}
+          </select>
+        </div>
       </div>
 
       <SectionTitle>Fleet Forecast</SectionTitle>
-      <ForecastTimelineChart forecast={forecast} horizon={horizon} />
+      <div className="mb-6">
+        <ForecastTimelineChart forecast={forecast} horizon={horizon} />
+      </div>
 
       <SectionTitle>Product Forecast with Confidence Band</SectionTitle>
-      <ConfidenceBandChart forecast={forecast} productId={effectiveProduct} horizon={horizon} />
+      <div className="mb-6">
+        <ConfidenceBandChart forecast={forecast} productId={effectiveProduct} horizon={horizon} />
+      </div>
 
       <SectionTitle>Forecast by Category &amp; Model Accuracy</SectionTitle>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, marginBottom: 20 }}>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-8">
         <ForecastCategoryBar forecast={forecast} horizon={horizon} />
-        <Card>
-          <div style={{ fontWeight: 600, fontSize: 14, color: C.text, marginBottom: 16 }}>Model Accuracy Comparison</div>
-          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13 }}>
-            <thead>
-              <tr>
-                {['Model', 'MAE', 'RMSE', 'MAPE'].map(h => (
-                  <th key={h} style={{ padding: '8px 12px', textAlign: h === 'Model' ? 'left' : 'right',
-                    background: C.bg, color: C.subtle, fontSize: 11, letterSpacing: '0.06em',
-                    textTransform: 'uppercase', borderBottom: `1px solid ${C.border}` }}>{h}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {modelRows.map((row, i) => (
-                <tr key={row.model} style={{ borderBottom: `1px solid ${C.border}` }}>
-                  <td style={{ padding: '10px 12px', color: C.text, fontWeight: 600 }}>{row.model}</td>
-                  <td style={{ padding: '10px 12px', color: C.text, textAlign: 'right' }}>{row.MAE}</td>
-                  <td style={{ padding: '10px 12px', color: C.text, textAlign: 'right' }}>{row.RMSE}</td>
-                  <td style={{ padding: '10px 12px', color: i === 0 ? C.green : C.orange, textAlign: 'right', fontWeight: 700 }}>{row.MAPE}</td>
+
+        <Card className="flex flex-col h-full">
+          <div className="font-bold text-sm text-slate-700 mb-4 flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            Model Accuracy Comparison
+          </div>
+
+          <div className="flex-1 overflow-x-auto">
+            <table className="w-full text-sm text-left border-collapse">
+              <thead>
+                <tr className="border-b border-slate-200">
+                  {['Model', 'MAE', 'RMSE', 'MAPE'].map((h, i) => (
+                    <th key={h} className={`px-4 py-3 bg-slate-50/80 text-xs font-bold tracking-wider uppercase text-slate-500 ${i > 0 ? 'text-right' : ''}`}>
+                      {h}
+                    </th>
+                  ))}
                 </tr>
-              ))}
-            </tbody>
-          </table>
-          <div style={{ marginTop: 16, fontSize: 11, color: C.subtle }}>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {modelRows.map((row, i) => (
+                  <tr key={row.model} className="hover:bg-indigo-50/50 transition-colors group">
+                    <td className="px-4 py-3 font-medium text-slate-800">{row.model}</td>
+                    <td className="px-4 py-3 text-right text-slate-600 group-hover:text-indigo-900 transition-colors">{row.MAE}</td>
+                    <td className="px-4 py-3 text-right text-slate-600 group-hover:text-indigo-900 transition-colors">{row.RMSE}</td>
+                    <td className={`px-4 py-3 text-right font-bold tracking-wide ${i === 0 ? 'text-emerald-600' : 'text-amber-600'}`}>
+                      {row.MAPE}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-4 text-xs text-slate-500 border-t border-slate-100 pt-3">
+            <span className="inline-block w-2 h-2 rounded-sm bg-slate-700 mr-2"></span>
             Walk-forward backtest with 90-day holdout. Lower MAPE = better accuracy.
           </div>
         </Card>

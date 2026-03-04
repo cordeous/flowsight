@@ -11,7 +11,7 @@ and executive dashboard design — comparable in concept to SAP analytics layers
 ```
 Python Data Generators (synthetic, realistic)
         |
-        v
+        v 
 ETL Pipeline (transform -> validate -> load)
         |
         v
@@ -147,10 +147,31 @@ python -m pytest tests/ -v
 
 | Page | Key Visuals |
 |------|-------------|
-| Executive Summary | Revenue trend, Inventory Turnover KPI card, Supplier OTD gauge |
-| Inventory Health | Stockout table, Reorder alert matrix (ORDER NOW / ORDER SOON / OK) |
-| Demand Forecast | ARIMA vs HoltWinters ribbon chart, confidence bands, 30/60/90d toggle |
-| Anomalies & Suppliers | Supplier OTD bar, Delay heatmap, Anomaly score scatter |
+| Executive Summary | Revenue trend, Category breakdown, Supplier OTD rankings, KPI cards |
+| Inventory Health | Category alert matrix, Reorder alerts table, Turnover heatmap, EOQ recommendations |
+| Demand Forecast | ARIMA vs HoltWinters ribbon chart, Confidence bands, 30/60/90d horizon toggle |
+| Anomalies & Suppliers | Supplier OTD bar, Anomaly scatter/heatmap, Isolation Forest vs Z-Score |
+
+### Dashboard UI (v2.2 — Light Mode + Export)
+
+The React dashboard features a modern enterprise design with:
+- 🌞 **Clean light mode** with contrasting dark sidebar
+- 📱 **Fully mobile-responsive** — collapsible sidebar on small screens
+- 📥 **CSV Export** — one-click data download for any active page
+- 📄 **PDF Export** — branded PDF report with FlowSight header, timestamp, and page content
+- 🔄 **Live filters** — horizon toggles, severity/detector filter pills, searchable tables
+
+#### Executive Summary
+![Executive Summary](screenshots/executive_final.png)
+
+#### Inventory Health — Category Alert Matrix
+![Inventory Health](screenshots/inventory_final.png)
+
+#### Demand Forecast — ARIMA & Holt-Winters
+![Demand Forecast](screenshots/forecast_final.png)
+
+#### Anomalies & Suppliers
+![Anomalies & Suppliers](screenshots/anomalies_final.png)
 
 ---
 
